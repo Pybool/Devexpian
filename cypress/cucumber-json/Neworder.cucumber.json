@@ -1,0 +1,162 @@
+[
+  {
+    "description": "    As a customer i should be able to create new orders",
+    "keyword": "Feature",
+    "name": "Ensure that the new orders can be created",
+    "line": 1,
+    "id": "ensure-that-the-new-orders-can-be-created",
+    "tags": [],
+    "uri": "Neworder.feature",
+    "elements": [
+      {
+        "id": "ensure-that-the-new-orders-can-be-created;on-selected-environment-i-ensure-that-new-orders-can-be-created",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "On selected environment i ensure that new orders can be created",
+        "tags": [
+          {
+            "name": "@automated",
+            "line": 4
+          },
+          {
+            "name": "@functional",
+            "line": 4
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I navigate to the \"login\" page on the selected environment",
+            "result": {
+              "status": "passed",
+              "duration": 5448000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I login using valid \"taye.oyelekan@expian.io\" and \"Radio9*981tai\"",
+            "result": {
+              "status": "passed",
+              "duration": 1933000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I click on \"New Order\" in the navigation bar after reaching landing page",
+            "result": {
+              "status": "passed",
+              "duration": 3273000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I click the \"Event\" button to create an \"Event\" type order",
+            "result": {
+              "status": "passed",
+              "duration": 2124000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "For the \"What\" option i select an option",
+            "result": {
+              "status": "passed",
+              "duration": 634000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "For the \"Who\" option i select '4' \"Adult\"",
+            "result": {
+              "status": "passed",
+              "duration": 1324000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "For the \"when\" option i select a date",
+            "result": {
+              "status": "passed",
+              "duration": 5967000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "I select a time for the order",
+            "result": {
+              "status": "passed",
+              "duration": 415000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "The Add To Cart Button should be visible",
+            "result": {
+              "status": "passed",
+              "duration": 796000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "I click the Add To Cart Button after the spinner disappears",
+            "result": {
+              "status": "passed",
+              "duration": 678000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "I check that there is a counter displayed at the top off the page and the count down works",
+            "result": {
+              "status": "passed",
+              "duration": 3562000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "I click the \"Checkout\" button",
+            "result": {
+              "status": "passed",
+              "duration": 305000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "I fill in the customer general information",
+            "result": {
+              "status": "passed",
+              "duration": 26433000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

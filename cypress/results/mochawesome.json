@@ -59,9 +59,7 @@
           ],
           "suites": [],
           "passes": [],
-          "failures": [
-            "ff0baa90-710d-4eff-890e-6c5af439e892"
-          ],
+          "failures": ["ff0baa90-710d-4eff-890e-6c5af439e892"],
           "pending": [],
           "skipped": [],
           "duration": 48334,

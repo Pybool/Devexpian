@@ -1,0 +1,164 @@
+[
+  {
+    "description": "    As a tester i want to validate the account page to ensure it displays correctly",
+    "keyword": "Feature",
+    "name": "Ensure that the accounts page is rendered correctly after login",
+    "line": 1,
+    "id": "ensure-that-the-accounts-page-is-rendered-correctly-after-login",
+    "tags": [],
+    "uri": "Accountpage.feature",
+    "elements": [
+      {
+        "id": "ensure-that-the-accounts-page-is-rendered-correctly-after-login;on-selected-environment-i-ensure-that-the-accounts-page-is-rendered-correctly",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "On selected environment i ensure that the accounts page is rendered correctly",
+        "tags": [
+          {
+            "name": "@automated",
+            "line": 4
+          },
+          {
+            "name": "@functional",
+            "line": 4
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I navigate to the \"login\" page on the selected environment",
+            "result": {
+              "status": "passed",
+              "duration": 4645000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I login using valid \"taye.oyelekan@expian.io\" and \"Radio9*981tai\"",
+            "result": {
+              "status": "passed",
+              "duration": 2011000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "The account page should show the user email and have header \"Welcome back\"",
+            "result": {
+              "status": "passed",
+              "duration": 12788000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I ensure that all nav links are complete and visible with each having an Icon",
+            "result": {
+              "status": "passed",
+              "duration": 690000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Tab 1",
+                      "Tab 2",
+                      "Tab 3",
+                      "Tab 4",
+                      "Tab 5",
+                      "Tab 6"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Number of Upcoming Bookings:",
+                      "Number of Passes",
+                      "Number of Past Orders:",
+                      "Number of Memberships:",
+                      "No Patronages",
+                      "No Vouchers"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I should see that the Account Area has 6 tabs present",
+            "result": {
+              "status": "passed",
+              "duration": 10000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "For tab \"1\" The \"Number of Upcoming Bookings:\" count when \"0\" , \"No Active Orders\" should be seen in the list below else count should match items displayed",
+            "result": {
+              "status": "passed",
+              "duration": 661000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "For tab \"2\" The \"Number of Passes:\" count when \"0\" , \"No Passes\" should be seen in the list below else count should match items displayed",
+            "result": {
+              "status": "failed",
+              "duration": 40894000000,
+              "error_message": "AssertionError: Timed out retrying after 40000ms: Expected to find content: 'No Passes' within the element: <p.chakra-text.css-0> but never did.\n    at Context.eval (cypress/pom/accountspage.js:62:17)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "For tab \"3\" The \"Number of Past Orders:\" count when \"0\" , \"No Past Orders\" should be seen in the list below else count should match items displayed",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "For tab \"4\" The \"Number of Memberships:\" count when \"0\" , \"No Memberships\" should be seen in the list below else count should match items displayed",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "For tab \"5\" The \"Number of Patronages:\" count when \"0\" , \"No Patronages\" should be seen in the list below else count should match items displayed",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "For tab \"6\" The \"Number of Vouchers:\" count when \"0\" , \"No Vouchers\" should be seen in the list below else count should match items displayed",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -8,7 +8,7 @@ Then(
   (navItem) => {
     ordersPage.elements.navbarItem("My Orders").should("be.visible")
     ordersPage.elements.navbarItem(navItem).click()
-  }
+  },
 )
 
 Then("I should see a header with text {string}", (headerText) => {
@@ -25,7 +25,7 @@ Then(
       .and("be.visible")
 
     cy.get(`@${orderType}-order`).click()
-  }
+  },
 )
 
 Then("For the {string} option i select an option", (section) => {
@@ -36,7 +36,7 @@ Then(
   "For the {string} option i select {string} {string}",
   (section, count, type) => {
     ordersPage.chooseWho(section, type, parseInt(count))
-  }
+  },
 )
 
 Then("For the {string} option i select a date", (section) => {
@@ -59,7 +59,7 @@ Then(
   "I check that there is a counter displayed at the top off the page and the count down works",
   () => {
     ordersPage.checkCounterIsDisplayedAndWorks()
-  }
+  },
 )
 
 Then("I click the {string} button", (checkOutText) => {

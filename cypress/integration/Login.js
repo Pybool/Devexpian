@@ -1,4 +1,4 @@
-import {When, Then } from "cypress-cucumber-preprocessor/steps"
+import { When, Then } from "cypress-cucumber-preprocessor/steps"
 import LoginPage from "../pom/Loginpage"
 import loginMetaData from "../metadata/loginpage.meta"
 
@@ -52,7 +52,7 @@ Then(
       .last()
       .should("have.text", "Hi " + Cypress.env("EXPIAN-USERNAME"))
       .and("be.visible")
-  }
+  },
 )
 
 Then("I should see the {string} modal displayed", () => {
@@ -72,11 +72,11 @@ Then(
         cy.get("@signInTab").should(
           "have.css",
           style,
-          loginMetaData.css.loginmodal.signInNav[style]
+          loginMetaData.css.loginmodal.signInNav[style],
         )
-      }
+      },
     )
-  }
+  },
 )
 
 Then("I should see that there is an {string} label", (label) => {
@@ -101,9 +101,9 @@ Then(
       .and(
         "have.css",
         "background-color",
-        loginMetaData.css.loginmodal.signIn.backgroundColor
+        loginMetaData.css.loginmodal.signIn.backgroundColor,
       )
-  }
+  },
 )
 
 Then(
@@ -116,14 +116,14 @@ Then(
       .and(
         "have.css",
         "color",
-        loginMetaData.css.loginmodal.forgotPassword.color
+        loginMetaData.css.loginmodal.forgotPassword.color,
       )
       .and(
         "have.css",
         "background-color",
-        loginMetaData.css.loginmodal.forgotPassword.backgroundColor
+        loginMetaData.css.loginmodal.forgotPassword.backgroundColor,
       )
-  }
+  },
 )
 
 Then("user is not logged into account area", () => {

@@ -45,4 +45,4 @@ const accountsMetaData = {
   navbarList: ["New Order", "Memberships", "My Orders", "Logout"],
 }
 
-export default accountsMetaData;
+export default accountsMetaData

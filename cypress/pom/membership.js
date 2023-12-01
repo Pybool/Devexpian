@@ -1,19 +1,21 @@
 import membershipMetaData from "../metadata/memberships.meta"
 
 class Membership {
-  elements = {
-    selectMembershipButton: (text) =>
-      cy
-        .get(`p.chakra-text`)
-        .contains(text)
-        .parent()
-        .parent()
-        .find("button")
-        .eq(0)
-        .as("membershipButton"),
-    checkOutButton: () => cy.get(`button.chakra-button`).contains("Checkout"),
-    orderReferenceHeader: () => cy.get("h2").eq(2),
-  }
+  constructor() {
+    this.elements = {
+      selectMembershipButton: (text) =>
+        cy
+          .get(`p.chakra-text`)
+          .contains(text)
+          .parent()
+          .parent()
+          .find("button")
+          .eq(0)
+          .as("membershipButton"),
+      checkOutButton: () => cy.get(`button.chakra-button`).contains("Checkout"),
+      orderReferenceHeader: () => cy.get("h2").eq(2),
+    }
+    }
 
   chooseMemberships(item, membershipTypes) {
     let mapping
@@ -26,7 +28,6 @@ class Membership {
     cy.wrap(membershipTypes).each((membershipType) => {
       const membershipNameObject = membershipMetaData[mapping][membershipType]
       const membershipName = membershipNameObject.name
-      const membershipPrice = membershipNameObject.price
       this.elements.selectMembershipButton(membershipName).click()
     })
   }

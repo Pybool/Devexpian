@@ -44,4 +44,4 @@ const membershipMetaData = {
   },
 }
 
-export default membershipMetaData;
+export default membershipMetaData

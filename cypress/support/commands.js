@@ -12,7 +12,7 @@ Cypress.Commands.add("silentlogin", (isAdmin = false) => {
   const data = {
     email: isAdmin ? Cypress.env("USERNAME") : Cypress.env("ADMIN_USERNAME"),
     password: isAdmin ? Cypress.env("PASSWORD") : Cypress.env("ADMIN_PASSWORD"),
-  };
+  }
 
   cy.request("POST", "some-url", data).then((response) => {
     expect(response.status).to.eq(200)
@@ -25,7 +25,7 @@ Cypress.Commands.add("silentlogin", (isAdmin = false) => {
 
 Cypress.Commands.add("deauthenticate", () => {
   cy.window().then((win) => {
-    win.localStorage.removeItem("token");
+    win.localStorage.removeItem("token")
   })
 })
 
@@ -37,9 +37,9 @@ Cypress.Commands.add(
   "typeFast",
   { prevSubject: "element" },
   (subject, text) => {
-    cy.wrap(subject).type(text, { delay: 0 })
-  }
-);
+    cy.wrap(subject).type(text, {force:true, delay: 0 })
+  },
+)
 
 Cypress.Commands.add("isUrlMatch", (url) => {
   cy.url().should("eq", `${Cypress.config("baseUrl")}${url}`)

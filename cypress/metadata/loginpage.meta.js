@@ -34,4 +34,4 @@ const loginMetaData = {
   },
 }
 
-export default loginMetaData;
+export default loginMetaData

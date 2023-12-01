@@ -40,4 +40,4 @@ const newOrderMetaData = {
   },
 }
 
-export default newOrderMetaData;
+export default newOrderMetaData

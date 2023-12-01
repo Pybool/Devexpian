@@ -1,14 +1,16 @@
 import accountsMetaData from "../metadata/accounts.meta"
 
 class AccountsPage {
-  elements = {
-    navbarItem: (navText) => cy.get(`button.chakra-button`).contains(navText),
-    logoutBtn: (navText) => cy.get(`button.chakra-button`).contains(navText),
-    tabs: (index) =>
-      cy
-        .get("div.chakra-card")
-        .children()
-        .eq(index - 1),
+  constructor() {
+    this.elements = {
+      navbarItem: (navText) => cy.get(`button.chakra-button`).contains(navText),
+      logoutBtn: (navText) => cy.get(`button.chakra-button`).contains(navText),
+      tabs: (index) =>
+        cy
+          .get("div.chakra-card")
+          .children()
+          .eq(index - 1),
+    }
   }
 
   checkNavLinks() {
@@ -36,7 +38,7 @@ class AccountsPage {
       .then(($tab) => {
         cy.wrap($tab).should(
           "contain.text",
-          accountsMetaData.css[`tab${data.tabIndex}`].text
+          accountsMetaData.css[`tab${data.tabIndex}`].text,
         )
         cy.get("div.chakra-card")
           .eq(0)
@@ -59,7 +61,6 @@ class AccountsPage {
                 .contains(data.emptyTxt)
                 .should("exist")
                 .and("be.visible")
-            } else {
             }
           })
       })
