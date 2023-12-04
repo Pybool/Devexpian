@@ -25,6 +25,9 @@ class Membership {
     if (item == "voucher") {
       mapping = "voucherMapping"
     }
+    if (item == "patronage") {
+      mapping = "patronageMapping"
+    }
     cy.wrap(membershipTypes).each((membershipType) => {
       const membershipNameObject = membershipMetaData[mapping][membershipType]
       const membershipName = membershipNameObject.name

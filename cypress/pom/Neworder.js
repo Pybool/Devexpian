@@ -54,6 +54,7 @@ class OrdersPage {
       refLabel: () =>
         cy.get("p.chakra-text").contains("Order reference", { timeout: x6 }),
       orderCompleteHeader: () => cy.get("h3 > span").contains("Order complete"),
+      enterAddressManuallyBtn:() => cy.get('button').contains("Or enter address manually")
     }
   }
 
@@ -205,6 +206,7 @@ class OrdersPage {
   }
 
   fillGeneralInformationForm(market = "") {
+    this.elements.enterAddressManuallyBtn().click({force:true})
     cy.wrap([
       "firstname",
       "lastname",

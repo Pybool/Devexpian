@@ -21,6 +21,9 @@ Then(
     if (item == "voucher") {
       mapping = "voucherMapping"
     }
+    if (item == "patronage") {
+      mapping = "patronageMapping"
+    }
     const membershipNameObject = membershipMetaData[mapping][membershipType]
     const membershipName = membershipNameObject.name
     const getCssType = (style) => {

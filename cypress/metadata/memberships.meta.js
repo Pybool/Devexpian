@@ -34,6 +34,25 @@ const membershipMetaData = {
       name: "Expian Office Taye Test Voucher Month With Month Rounding",
       price: "£25.00",
     },
+    
+  },
+  patronageMapping: {
+    "1 year without rounding": {
+      name: "Expian Office Taye Test Patronage Year No Month Rounding",
+      price: "£25.00",
+    },
+    "1 year with rounding": {
+      name: "Expian Office Taye Test Patronage Year With Month Rounding",
+      price: "£25.00",
+    },
+    "1 month without rounding": {
+      name: "Expian Office Taye Test Patronage Month No Month Rounding",
+      price: "£25.00",
+    },
+    "1 month with rounding": {
+      name: "Expian Office Taye Test Patronage Month With Month Rounding",
+      price: "£25.00",
+    },
   },
 
   css: {

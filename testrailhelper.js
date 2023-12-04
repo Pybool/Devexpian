@@ -107,7 +107,7 @@ function generateEachCase(test) {
           title: element.name + i,
           type_id: 1,
           priority_id: 3,
-          "estimate": parseInt(duration/60000000).toString()+"m",
+          // "estimate": parseInt(duration/60000000).toString()+"m",
           refs: "",
           template_id: 2,
           custom_steps_separated: steps,
