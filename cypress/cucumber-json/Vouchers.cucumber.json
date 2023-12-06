@@ -32,7 +32,7 @@
             "name": "I am logged into Account area",
             "result": {
               "status": "passed",
-              "duration": 3725000000
+              "duration": 5065000000
             }
           },
           {
@@ -42,7 +42,7 @@
             "name": "I click the \"Vouchers\" navigation link",
             "result": {
               "status": "passed",
-              "duration": 468000000
+              "duration": 448000000
             }
           },
           {
@@ -52,7 +52,7 @@
             "name": "I check the the \"voucher\" button \"color\" is \"rgb(15, 28, 42)\" just \"before\" selecting for \"1 year without rounding\"",
             "result": {
               "status": "passed",
-              "duration": 783000000
+              "duration": 1039000000
             }
           },
           {
@@ -62,7 +62,7 @@
             "name": "I check the the \"voucher\" button \"backgroundColor\" is \"rgb(125, 227, 203)\" just \"before\" selecting for \"1 year without rounding\"",
             "result": {
               "status": "passed",
-              "duration": 166000000
+              "duration": 159000000
             }
           },
           {
@@ -72,7 +72,7 @@
             "name": "I select a \"voucher\" plan for \"1 year without rounding\" for purchase",
             "result": {
               "status": "passed",
-              "duration": 610000000
+              "duration": 376000000
             }
           },
           {
@@ -82,7 +82,7 @@
             "name": "I check the the \"voucher\" button \"color\" is \"rgb(225, 226, 228)\" just \"after\" selecting for \"1 year without rounding\"",
             "result": {
               "status": "passed",
-              "duration": 332000000
+              "duration": 338000000
             }
           },
           {
@@ -92,7 +92,7 @@
             "name": "I check the the \"voucher\" button \"backgroundColor\" is \"rgb(29, 53, 62)\" just \"after\" selecting for \"1 year without rounding\"",
             "result": {
               "status": "passed",
-              "duration": 223000000
+              "duration": 219000000
             }
           },
           {
@@ -102,7 +102,7 @@
             "name": "I click the \"Checkout\" button",
             "result": {
               "status": "passed",
-              "duration": 2312000000
+              "duration": 3120000000
             }
           },
           {
@@ -112,7 +112,7 @@
             "name": "I fill in the customer general information",
             "result": {
               "status": "passed",
-              "duration": 22310000000
+              "duration": 18413000000
             }
           },
           {
@@ -122,7 +122,7 @@
             "name": "I click the \"View Order\" link button",
             "result": {
               "status": "passed",
-              "duration": 751000000
+              "duration": 575000000
             }
           },
           {
@@ -132,7 +132,7 @@
             "name": "I check that the expiration date is on the same day next year as today",
             "result": {
               "status": "passed",
-              "duration": 1827000000
+              "duration": 1274000000
             }
           },
           {
@@ -142,7 +142,7 @@
             "name": "I check that the order reference is same as that on the order complete page",
             "result": {
               "status": "passed",
-              "duration": 146000000
+              "duration": 97000000
             }
           }
         ]
@@ -171,7 +171,7 @@
             "name": "I am logged into Account area",
             "result": {
               "status": "passed",
-              "duration": 6118000000
+              "duration": 4377000000
             }
           },
           {
@@ -181,7 +181,7 @@
             "name": "I click the \"Vouchers\" navigation link",
             "result": {
               "status": "passed",
-              "duration": 518000000
+              "duration": 596000000
             }
           },
           {
@@ -191,7 +191,7 @@
             "name": "I check the the \"voucher\" button \"color\" is \"rgb(15, 28, 42)\" just \"before\" selecting for \"1 year with rounding\"",
             "result": {
               "status": "passed",
-              "duration": 1003000000
+              "duration": 1036000000
             }
           },
           {
@@ -201,7 +201,7 @@
             "name": "I check the the \"voucher\" button \"backgroundColor\" is \"rgb(125, 227, 203)\" just \"before\" selecting for \"1 year with rounding\"",
             "result": {
               "status": "passed",
-              "duration": 205000000
+              "duration": 165000000
             }
           },
           {
@@ -211,7 +211,7 @@
             "name": "I select a \"voucher\" plan for \"1 year with rounding\" for purchase",
             "result": {
               "status": "passed",
-              "duration": 587000000
+              "duration": 444000000
             }
           },
           {
@@ -221,7 +221,7 @@
             "name": "I check the the \"voucher\" button \"color\" is \"rgb(225, 226, 228)\" just \"after\" selecting for \"1 year with rounding\"",
             "result": {
               "status": "passed",
-              "duration": 526000000
+              "duration": 238000000
             }
           },
           {
@@ -231,7 +231,7 @@
             "name": "I check the the \"voucher\" button \"backgroundColor\" is \"rgb(29, 53, 62)\" just \"after\" selecting for \"1 year with rounding\"",
             "result": {
               "status": "passed",
-              "duration": 313000000
+              "duration": 171000000
             }
           },
           {
@@ -241,7 +241,7 @@
             "name": "I click the \"Checkout\" button",
             "result": {
               "status": "passed",
-              "duration": 2522000000
+              "duration": 2784000000
             }
           },
           {
@@ -251,7 +251,7 @@
             "name": "I fill in the customer general information",
             "result": {
               "status": "passed",
-              "duration": 19648000000
+              "duration": 18338000000
             }
           },
           {
@@ -261,7 +261,7 @@
             "name": "I click the \"View Order\" link button",
             "result": {
               "status": "passed",
-              "duration": 561000000
+              "duration": 704000000
             }
           },
           {
@@ -271,7 +271,7 @@
             "name": "I check that the expiration date is on the month end next year of the same month",
             "result": {
               "status": "failed",
-              "error_message": "AssertionError: Timed out retrying after 40000ms: Expected to find content: 'Valid until: Dec 31, 2024' within the element: <p.chakra-text.css-itvw0n> but never did.\n    at Membership.validatePurchaseAndExpiration (cypress/pom/membership.js:61:9)\n    at Context.eval (cypress/integration/memberships.js:70:15)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+              "error_message": "AssertionError: Timed out retrying after 40000ms: Expected to find content: 'Valid until: Dec 31, 2024' within the element: <p.chakra-text.css-itvw0n> but never did.\n    at Membership.validatePurchaseAndExpiration (cypress/pom/membership.js:64:9)\n    at Context.eval (cypress/integration/memberships.js:73:15)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
             }
           },
           {
@@ -309,7 +309,7 @@
             "name": "I am logged into Account area",
             "result": {
               "status": "passed",
-              "duration": 24921000000
+              "duration": 7511000000
             }
           },
           {
@@ -319,7 +319,7 @@
             "name": "I click the \"Vouchers\" navigation link",
             "result": {
               "status": "passed",
-              "duration": 1955000000
+              "duration": 514000000
             }
           },
           {
@@ -329,7 +329,7 @@
             "name": "I check the the \"voucher\" button \"color\" is \"rgb(15, 28, 42)\" just \"before\" selecting for \"1 month with rounding\"",
             "result": {
               "status": "passed",
-              "duration": 3628000000
+              "duration": 3413000000
             }
           },
           {
@@ -339,7 +339,7 @@
             "name": "I check the the \"voucher\" button \"backgroundColor\" is \"rgb(125, 227, 203)\" just \"before\" selecting for \"1 month with rounding\"",
             "result": {
               "status": "passed",
-              "duration": 997000000
+              "duration": 448000000
             }
           },
           {
@@ -349,7 +349,7 @@
             "name": "I select a \"voucher\" plan for \"1 month with rounding\" for purchase",
             "result": {
               "status": "passed",
-              "duration": 1858000000
+              "duration": 974000000
             }
           },
           {
@@ -359,7 +359,7 @@
             "name": "I check the the \"voucher\" button \"color\" is \"rgb(225, 226, 228)\" just \"after\" selecting for \"1 month with rounding\"",
             "result": {
               "status": "passed",
-              "duration": 1067000000
+              "duration": 552000000
             }
           },
           {
@@ -369,7 +369,7 @@
             "name": "I check the the \"voucher\" button \"backgroundColor\" is \"rgb(29, 53, 62)\" just \"after\" selecting for \"1 month with rounding\"",
             "result": {
               "status": "passed",
-              "duration": 713000000
+              "duration": 348000000
             }
           },
           {
@@ -379,7 +379,7 @@
             "name": "I click the \"Checkout\" button",
             "result": {
               "status": "passed",
-              "duration": 6010000000
+              "duration": 3983000000
             }
           },
           {
@@ -389,7 +389,7 @@
             "name": "I fill in the customer general information",
             "result": {
               "status": "passed",
-              "duration": 41667000000
+              "duration": 25114000000
             }
           },
           {
@@ -399,7 +399,7 @@
             "name": "I click the \"View Order\" link button",
             "result": {
               "status": "passed",
-              "duration": 1438000000
+              "duration": 1076000000
             }
           },
           {
@@ -409,7 +409,7 @@
             "name": "I check that the expiration date is on the month end of the next month",
             "result": {
               "status": "failed",
-              "error_message": "AssertionError: Timed out retrying after 40000ms: Expected to find content: 'Valid until: Jan 31, 2024' within the element: <p.chakra-text.css-itvw0n> but never did.\n    at Membership.validatePurchaseAndExpiration (cypress/pom/membership.js:90:9)\n    at Context.eval (cypress/integration/memberships.js:77:15)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+              "error_message": "AssertionError: Timed out retrying after 40000ms: Expected to find content: 'Valid until: Jan 31, 2024' within the element: <p.chakra-text.css-itvw0n> but never did.\n    at Membership.validatePurchaseAndExpiration (cypress/pom/membership.js:93:9)\n    at Context.eval (cypress/integration/memberships.js:80:15)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
             }
           },
           {

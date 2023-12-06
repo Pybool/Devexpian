@@ -8,11 +8,11 @@ const loginPage = LoginPage
 const common = Commonpage
 
 When("I navigate to the {string} page on the selected environment", (page) => {
-  cy.visit(loginMetaData.urls[page])
+  cy.visit(loginMetaData.urls[Cypress.env('testenv')][page])
 })
 
 Given("I am logged into Account area", () => {
-  cy.visit(loginMetaData.urls["login"])
+  cy.visit(loginMetaData.urls[Cypress.env('testenv')]["login"])
   const data = {
     email: Cypress.env("EXPIAN-USERNAME"),
     password: Cypress.env("EXPIAN-PASSWORD"),

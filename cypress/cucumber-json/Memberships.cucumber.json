@@ -32,7 +32,7 @@
             "name": "I am logged into Account area",
             "result": {
               "status": "passed",
-              "duration": 8697000000
+              "duration": 4737000000
             }
           },
           {
@@ -42,7 +42,7 @@
             "name": "I click the \"Memberships\" navigation link",
             "result": {
               "status": "passed",
-              "duration": 538000000
+              "duration": 282000000
             }
           },
           {
@@ -52,7 +52,7 @@
             "name": "I check the the \"membership\" button \"color\" is \"rgb(15, 28, 42)\" just \"before\" selecting for \"1 year without rounding\"",
             "result": {
               "status": "passed",
-              "duration": 1407000000
+              "duration": 1408000000
             }
           },
           {
@@ -62,7 +62,7 @@
             "name": "I check the the \"membership\" button \"backgroundColor\" is \"rgb(125, 227, 203)\" just \"before\" selecting for \"1 year without rounding\"",
             "result": {
               "status": "passed",
-              "duration": 396000000
+              "duration": 198000000
             }
           },
           {
@@ -72,7 +72,7 @@
             "name": "I select a \"membership\" plan for \"1 year without rounding\" for purchase",
             "result": {
               "status": "passed",
-              "duration": 703000000
+              "duration": 525000000
             }
           },
           {
@@ -82,7 +82,7 @@
             "name": "I check the the \"membership\" button \"color\" is \"rgb(225, 226, 228)\" just \"after\" selecting for \"1 year without rounding\"",
             "result": {
               "status": "passed",
-              "duration": 438000000
+              "duration": 294000000
             }
           },
           {
@@ -92,7 +92,7 @@
             "name": "I check the the \"membership\" button \"backgroundColor\" is \"rgb(29, 53, 62)\" just \"after\" selecting for \"1 year without rounding\"",
             "result": {
               "status": "passed",
-              "duration": 355000000
+              "duration": 245000000
             }
           },
           {
@@ -102,7 +102,7 @@
             "name": "I click the \"Checkout\" button",
             "result": {
               "status": "passed",
-              "duration": 2787000000
+              "duration": 1757000000
             }
           },
           {
@@ -112,7 +112,7 @@
             "name": "I fill in the customer general information",
             "result": {
               "status": "passed",
-              "duration": 29710000000
+              "duration": 22526000000
             }
           },
           {
@@ -122,7 +122,7 @@
             "name": "I click the \"View Order\" link button",
             "result": {
               "status": "passed",
-              "duration": 905000000
+              "duration": 925000000
             }
           },
           {
@@ -132,7 +132,7 @@
             "name": "I check that the expiration date is on the same day next year as today",
             "result": {
               "status": "passed",
-              "duration": 2569000000
+              "duration": 1991000000
             }
           },
           {
@@ -142,7 +142,7 @@
             "name": "I check that the order reference is same as that on the order complete page",
             "result": {
               "status": "passed",
-              "duration": 143000000
+              "duration": 94000000
             }
           }
         ]
@@ -171,7 +171,7 @@
             "name": "I am logged into Account area",
             "result": {
               "status": "passed",
-              "duration": 8481000000
+              "duration": 4905000000
             }
           },
           {
@@ -181,7 +181,7 @@
             "name": "I click the \"Memberships\" navigation link",
             "result": {
               "status": "passed",
-              "duration": 463000000
+              "duration": 617000000
             }
           },
           {
@@ -191,7 +191,7 @@
             "name": "I check the the \"membership\" button \"color\" is \"rgb(15, 28, 42)\" just \"before\" selecting for \"1 year with rounding\"",
             "result": {
               "status": "passed",
-              "duration": 2274000000
+              "duration": 1144000000
             }
           },
           {
@@ -201,7 +201,7 @@
             "name": "I check the the \"membership\" button \"backgroundColor\" is \"rgb(125, 227, 203)\" just \"before\" selecting for \"1 year with rounding\"",
             "result": {
               "status": "passed",
-              "duration": 313000000
+              "duration": 297000000
             }
           },
           {
@@ -211,7 +211,7 @@
             "name": "I select a \"membership\" plan for \"1 year with rounding\" for purchase",
             "result": {
               "status": "passed",
-              "duration": 1413000000
+              "duration": 729000000
             }
           },
           {
@@ -221,7 +221,7 @@
             "name": "I check the the \"membership\" button \"color\" is \"rgb(225, 226, 228)\" just \"after\" selecting for \"1 year with rounding\"",
             "result": {
               "status": "passed",
-              "duration": 622000000
+              "duration": 314000000
             }
           },
           {
@@ -231,7 +231,7 @@
             "name": "I check the the \"membership\" button \"backgroundColor\" is \"rgb(29, 53, 62)\" just \"after\" selecting for \"1 year with rounding\"",
             "result": {
               "status": "passed",
-              "duration": 303000000
+              "duration": 192000000
             }
           },
           {
@@ -241,7 +241,7 @@
             "name": "I click the \"Checkout\" button",
             "result": {
               "status": "passed",
-              "duration": 2722000000
+              "duration": 3081000000
             }
           },
           {
@@ -251,7 +251,7 @@
             "name": "I fill in the customer general information",
             "result": {
               "status": "passed",
-              "duration": 25902000000
+              "duration": 27869000000
             }
           },
           {
@@ -261,7 +261,7 @@
             "name": "I click the \"View Order\" link button",
             "result": {
               "status": "passed",
-              "duration": 890000000
+              "duration": 1498000000
             }
           },
           {
@@ -271,7 +271,7 @@
             "name": "I check that the expiration date is on the month end next year of the same month",
             "result": {
               "status": "failed",
-              "error_message": "AssertionError: Timed out retrying after 40000ms: Expected to find content: 'Valid until: Dec 31, 2024' within the element: <p.chakra-text.css-itvw0n> but never did.\n    at Membership.validatePurchaseAndExpiration (cypress/pom/membership.js:61:9)\n    at Context.eval (cypress/integration/memberships.js:70:15)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+              "error_message": "AssertionError: Timed out retrying after 40000ms: Expected to find content: 'Valid until: Dec 31, 2024' within the element: <p.chakra-text.css-itvw0n> but never did.\n    at Membership.validatePurchaseAndExpiration (cypress/pom/membership.js:64:9)\n    at Context.eval (cypress/integration/memberships.js:73:15)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
             }
           },
           {
@@ -309,7 +309,7 @@
             "name": "I am logged into Account area",
             "result": {
               "status": "passed",
-              "duration": 8639000000
+              "duration": 8723000000
             }
           },
           {
@@ -319,7 +319,7 @@
             "name": "I click the \"Memberships\" navigation link",
             "result": {
               "status": "passed",
-              "duration": 1438000000
+              "duration": 1229000000
             }
           },
           {
@@ -329,7 +329,7 @@
             "name": "I check the the \"membership\" button \"color\" is \"rgb(15, 28, 42)\" just \"before\" selecting for \"1 month with rounding\"",
             "result": {
               "status": "passed",
-              "duration": 3032000000
+              "duration": 1553000000
             }
           },
           {
@@ -339,7 +339,7 @@
             "name": "I check the the \"membership\" button \"backgroundColor\" is \"rgb(125, 227, 203)\" just \"before\" selecting for \"1 month with rounding\"",
             "result": {
               "status": "passed",
-              "duration": 771000000
+              "duration": 526000000
             }
           },
           {
@@ -349,7 +349,7 @@
             "name": "I select a \"membership\" plan for \"1 month with rounding\" for purchase",
             "result": {
               "status": "passed",
-              "duration": 1387000000
+              "duration": 2259000000
             }
           },
           {
@@ -359,7 +359,7 @@
             "name": "I check the the \"membership\" button \"color\" is \"rgb(225, 226, 228)\" just \"after\" selecting for \"1 month with rounding\"",
             "result": {
               "status": "passed",
-              "duration": 924000000
+              "duration": 1442000000
             }
           },
           {
@@ -369,7 +369,7 @@
             "name": "I check the the \"membership\" button \"backgroundColor\" is \"rgb(29, 53, 62)\" just \"after\" selecting for \"1 month with rounding\"",
             "result": {
               "status": "passed",
-              "duration": 539000000
+              "duration": 792000000
             }
           },
           {
@@ -379,7 +379,7 @@
             "name": "I click the \"Checkout\" button",
             "result": {
               "status": "passed",
-              "duration": 4717000000
+              "duration": 3308000000
             }
           },
           {
@@ -389,7 +389,7 @@
             "name": "I fill in the customer general information",
             "result": {
               "status": "passed",
-              "duration": 49542000000
+              "duration": 36823000000
             }
           },
           {
@@ -399,7 +399,7 @@
             "name": "I click the \"View Order\" link button",
             "result": {
               "status": "passed",
-              "duration": 1614000000
+              "duration": 1797000000
             }
           },
           {
@@ -409,7 +409,7 @@
             "name": "I check that the expiration date is on the month end of the next month",
             "result": {
               "status": "failed",
-              "error_message": "AssertionError: Timed out retrying after 40000ms: Expected to find content: 'Valid until: Jan 31, 2024' within the element: <p.chakra-text.css-itvw0n> but never did.\n    at Membership.validatePurchaseAndExpiration (cypress/pom/membership.js:90:9)\n    at Context.eval (cypress/integration/memberships.js:77:15)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+              "error_message": "AssertionError: Timed out retrying after 40000ms: Expected to find content: 'Valid until: Jan 31, 2024' within the element: <p.chakra-text.css-itvw0n> but never did.\n    at Membership.validatePurchaseAndExpiration (cypress/pom/membership.js:93:9)\n    at Context.eval (cypress/integration/memberships.js:80:15)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
             }
           },
           {

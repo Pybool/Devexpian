@@ -1,7 +1,7 @@
 import { When, Then } from "cypress-cucumber-preprocessor/steps"
 import LoginPage from "../pom/Loginpage"
 import loginMetaData from "../metadata/loginpage.meta"
-
+const testEnv = Cypress.env("testenv")
 const loginPage = LoginPage
 
 When("I click Logout button", () => {
@@ -31,11 +31,23 @@ Then("The Login button displays", () => {
 })
 
 Then("I should see {string} displayed", (error) => {
-  loginPage.elements
-    .loginErrorAlert()
-    .should("exist")
-    .and("be.visible")
-    .and("have.text", error)
+  switch (testEnv) {
+    case "booking":
+      loginPage.elements
+        .loginErrorAlert()
+        .should("exist")
+        .and("be.visible")
+        .and("have.text", error)
+      break
+    case "reservation":
+      loginPage.elements
+        .resLoginErrorAlert()
+        .should("exist")
+        // .and("be.visible")
+        .and("have.text", error)
+      break
+    default:
+  }
 })
 
 Then(
@@ -52,11 +64,19 @@ Then(
       .last()
       .should("have.text", "Hi " + Cypress.env("EXPIAN-USERNAME"))
       .and("be.visible")
-  },
+  }
 )
 
 Then("I should see the {string} modal displayed", () => {
-  loginPage.elements.loginModal().should("exist").and("be.visible")
+  switch (testEnv) {
+    case "booking":
+      loginPage.elements.loginModal().should("exist").and("be.visible")
+      break
+    case "reservation":
+      loginPage.elements.resLoginModal().should("exist").and("be.visible")
+      break
+    default:
+  }
 })
 
 Then(
@@ -67,20 +87,30 @@ Then(
       .as("signInTab")
       .should("exist")
       .and("be.visible")
-    cy.wrap(Object.keys(loginMetaData.css.loginmodal.signInNav)).each(
-      (style) => {
-        cy.get("@signInTab").should(
-          "have.css",
-          style,
-          loginMetaData.css.loginmodal.signInNav[style],
-        )
-      },
-    )
-  },
+    cy.wrap(
+      Object.keys(
+        loginMetaData.css[Cypress.env("testenv")].loginmodal.signInNav
+      )
+    ).each((style) => {
+      cy.get("@signInTab").should(
+        "have.css",
+        style,
+        loginMetaData.css[Cypress.env("testenv")].loginmodal.signInNav[style]
+      )
+    })
+  }
 )
 
 Then("I should see that there is an {string} label", (label) => {
-  loginPage.elements.InputLabel(label).should("exist").and("be.visible")
+  switch (testEnv) {
+    case "booking":
+      loginPage.elements.InputLabel(label).should("exist").and("be.visible")
+      break
+    case "reservation":
+      loginPage.elements.resInputLabel(label).should("exist").and("be.visible")
+      break
+    default:
+  }
 })
 
 Then("I should see that there is an {string} input field", (fieldName) => {
@@ -93,37 +123,45 @@ Then("I should see that there is an {string} input field", (fieldName) => {
 Then(
   "I should see that there is a {string} button with the correct css properties",
   (btnText) => {
-    loginPage.elements
-      .btnWithText(btnText)
-      .should("exist")
-      .and("be.visible")
-      .and("have.css", "color", loginMetaData.css.loginmodal.signIn.color)
-      .and(
-        "have.css",
-        "background-color",
-        loginMetaData.css.loginmodal.signIn.backgroundColor,
-      )
-  },
+    switch (testEnv) {
+      case "booking":
+        loginPage.assertLoginButton(
+          loginPage.elements.btnWithText(btnText),
+          loginMetaData
+        )
+        break
+      case "reservation":
+        loginPage.assertLoginButton(
+          loginPage.elements.inputBtnWithVal(btnText),
+          loginMetaData
+        )
+        break
+      default:
+    }
+  }
 )
 
 Then(
   "I should also see that there is a {string} link on the login page with the correct css properties",
   (linkText) => {
-    loginPage.elements
-      .btnWithText(linkText)
-      .should("exist")
-      .and("be.visible")
-      .and(
-        "have.css",
-        "color",
-        loginMetaData.css.loginmodal.forgotPassword.color,
-      )
-      .and(
-        "have.css",
-        "background-color",
-        loginMetaData.css.loginmodal.forgotPassword.backgroundColor,
-      )
-  },
+    switch (testEnv) {
+      case "booking":
+        loginPage.assertLinkButton(
+          loginPage.elements.btnWithText(linkText),
+          loginMetaData,
+          "forgotPassword"
+        )
+        break
+      case "reservation":
+        loginPage.assertLinkButton(
+          loginPage.elements.forgotPasswordLink(linkText),
+          loginMetaData,
+          "forgotPassword"
+        )
+        break
+      default:
+    }
+  }
 )
 
 Then("user is not logged into account area", () => {

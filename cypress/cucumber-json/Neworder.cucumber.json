@@ -32,7 +32,7 @@
             "name": "I navigate to the \"login\" page on the selected environment",
             "result": {
               "status": "passed",
-              "duration": 5448000000
+              "duration": 3123000000
             }
           },
           {
@@ -42,7 +42,7 @@
             "name": "I login using valid \"taye.oyelekan@expian.io\" and \"Radio9*981tai\"",
             "result": {
               "status": "passed",
-              "duration": 1933000000
+              "duration": 2164000000
             }
           },
           {
@@ -52,7 +52,7 @@
             "name": "I click on \"New Order\" in the navigation bar after reaching landing page",
             "result": {
               "status": "passed",
-              "duration": 3273000000
+              "duration": 2201000000
             }
           },
           {
@@ -62,7 +62,7 @@
             "name": "I click the \"Event\" button to create an \"Event\" type order",
             "result": {
               "status": "passed",
-              "duration": 2124000000
+              "duration": 2094000000
             }
           },
           {
@@ -72,7 +72,7 @@
             "name": "For the \"What\" option i select an option",
             "result": {
               "status": "passed",
-              "duration": 634000000
+              "duration": 872000000
             }
           },
           {
@@ -82,7 +82,7 @@
             "name": "For the \"Who\" option i select '4' \"Adult\"",
             "result": {
               "status": "passed",
-              "duration": 1324000000
+              "duration": 927000000
             }
           },
           {
@@ -92,7 +92,7 @@
             "name": "For the \"when\" option i select a date",
             "result": {
               "status": "passed",
-              "duration": 5967000000
+              "duration": 5603000000
             }
           },
           {
@@ -102,7 +102,7 @@
             "name": "I select a time for the order",
             "result": {
               "status": "passed",
-              "duration": 415000000
+              "duration": 332000000
             }
           },
           {
@@ -112,7 +112,7 @@
             "name": "The Add To Cart Button should be visible",
             "result": {
               "status": "passed",
-              "duration": 796000000
+              "duration": 933000000
             }
           },
           {
@@ -122,7 +122,7 @@
             "name": "I click the Add To Cart Button after the spinner disappears",
             "result": {
               "status": "passed",
-              "duration": 678000000
+              "duration": 612000000
             }
           },
           {
@@ -132,7 +132,7 @@
             "name": "I check that there is a counter displayed at the top off the page and the count down works",
             "result": {
               "status": "passed",
-              "duration": 3562000000
+              "duration": 4852000000
             }
           },
           {
@@ -142,7 +142,7 @@
             "name": "I click the \"Checkout\" button",
             "result": {
               "status": "passed",
-              "duration": 305000000
+              "duration": 546000000
             }
           },
           {
@@ -152,7 +152,7 @@
             "name": "I fill in the customer general information",
             "result": {
               "status": "passed",
-              "duration": 26433000000
+              "duration": 24231000000
             }
           }
         ]

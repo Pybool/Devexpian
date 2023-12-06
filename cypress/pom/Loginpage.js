@@ -16,17 +16,66 @@ class LoginPage {
           .contains(btnTabText)
           .as("btnTabText"),
       loginModal: () => cy.get('[data-variation="modal"]'),
+      resLoginModal: () => cy.get("div.modal-body").eq(1),
       InputLabel: (label) =>
         this.elements.loginModal().find("label").contains(label),
+
+      resInputLabel: (label) =>
+        this.elements.resLoginModal().find("label").contains(label),
       loginErrorAlert: () => cy.get("div.amplify-alert__body"),
+      resLoginErrorAlert: () => cy.get("#loginErrorMessage"),
+      inputBtnWithVal: (btnText) => cy.get(`input[value='${btnText}']`),
+      forgotPasswordLink: (linkText) => cy.get(`a`).contains(linkText),
     }
   }
 
   signIn(data) {
-    this.elements.loginOutNavButton("Login").click()
-    this.elements.loginCredential("username").typeFast(data.email)
-    this.elements.loginCredential("password").typeFast(data.password)
-    this.elements.btnWithText(data.button).click()
+    let index = 1
+    if (Cypress.env("testenv") == "booking") {
+      index = 0
+      this.elements.loginOutNavButton("Login").click()
+    }
+    this.elements.loginCredential("username").eq(index).typeFast(data.email)
+    this.elements.loginCredential("password").eq(index).typeFast(data.password)
+    if (Cypress.env("testenv") == "booking") {
+      this.elements.btnWithText(data.button).eq(index).click()
+    } else {
+      this.elements.inputBtnWithVal(data.button).eq(index).click()
+    }
+  }
+
+  assertLoginButton(btnElement, loginMetaData) {
+    btnElement
+      .should("exist")
+      .and("be.visible")
+      .and(
+        "have.css",
+        "color",
+        loginMetaData.css[Cypress.env("testenv")].loginmodal.signIn.color
+      )
+      .and(
+        "have.css",
+        "background-color",
+        loginMetaData.css[Cypress.env("testenv")].loginmodal.signIn
+          .backgroundColor
+      )
+  }
+
+  assertLinkButton(linkElement, loginMetaData, cssKey) {
+    linkElement
+      .should("exist")
+      // .and("be.visible")
+      .and(
+        "have.css",
+        "color",
+        loginMetaData.css[Cypress.env("testenv")].loginmodal[cssKey].color
+      )
+      .and(
+        "have.css",
+        "background-color",
+        loginMetaData.css[Cypress.env("testenv")].loginmodal[cssKey]
+          .backgroundColor
+      )
   }
 }
 
