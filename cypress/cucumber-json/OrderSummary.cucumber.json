@@ -1,25 +1,25 @@
 [
   {
-    "description": "    As a customer i should be able to create new orders",
+    "description": "    As a tester i want to Ensure that Overide price button is not present on customer portal",
     "keyword": "Feature",
-    "name": "Ensure that the new orders can be created",
+    "name": "Ensure that Overide price button is not present on customer portal",
     "line": 1,
-    "id": "ensure-that-the-new-orders-can-be-created",
+    "id": "ensure-that-overide-price-button-is-not-present-on-customer-portal",
     "tags": [],
-    "uri": "Neworder.feature",
+    "uri": "OrderSummary.feature",
     "elements": [
       {
-        "id": "ensure-that-the-new-orders-can-be-created;on-selected-environment-i-ensure-that-new-orders-can-be-created",
+        "id": "ensure-that-overide-price-button-is-not-present-on-customer-portal;overide-price-button-not-visible-in-customer-portal",
         "keyword": "Scenario",
         "line": 5,
-        "name": "On selected environment i ensure that new orders can be created",
+        "name": "Overide price button not visible in customer portal",
         "tags": [
           {
             "name": "@automated",
             "line": 4
           },
           {
-            "name": "@functional",
+            "name": "@booking",
             "line": 4
           }
         ],
@@ -29,10 +29,10 @@
             "arguments": [],
             "keyword": "When ",
             "line": 6,
-            "name": "I navigate to the \"login\" page on the selected environment",
+            "name": "I navigate to the \"login\" page on the \"booking\" environment",
             "result": {
               "status": "passed",
-              "duration": 1352000000
+              "duration": 1782000000
             }
           },
           {
@@ -42,7 +42,7 @@
             "name": "I login using valid \"taye.oyelekan@expian.io\" and \"Radio9*981tai\"",
             "result": {
               "status": "passed",
-              "duration": 1540000000
+              "duration": 1352000000
             }
           },
           {
@@ -52,7 +52,7 @@
             "name": "I click on \"New Order\" in the navigation bar after reaching landing page",
             "result": {
               "status": "passed",
-              "duration": 1475000000
+              "duration": 1094000000
             }
           },
           {
@@ -62,7 +62,7 @@
             "name": "I click the \"Event\" button to create an \"Event\" type order",
             "result": {
               "status": "passed",
-              "duration": 1790000000
+              "duration": 1850000000
             }
           },
           {
@@ -72,7 +72,7 @@
             "name": "For the \"What\" option i select an option",
             "result": {
               "status": "passed",
-              "duration": 667000000
+              "duration": 674000000
             }
           },
           {
@@ -82,7 +82,7 @@
             "name": "For the \"Who\" option i select '4' \"Adult\"",
             "result": {
               "status": "passed",
-              "duration": 584000000
+              "duration": 627000000
             }
           },
           {
@@ -92,7 +92,7 @@
             "name": "For the \"when\" option i select a date",
             "result": {
               "status": "passed",
-              "duration": 8260000000
+              "duration": 3107000000
             }
           },
           {
@@ -102,7 +102,7 @@
             "name": "I select a time for the order",
             "result": {
               "status": "passed",
-              "duration": 318000000
+              "duration": 305000000
             }
           },
           {
@@ -112,7 +112,7 @@
             "name": "The Add To Cart Button should be visible",
             "result": {
               "status": "passed",
-              "duration": 830000000
+              "duration": 520000000
             }
           },
           {
@@ -122,7 +122,7 @@
             "name": "I click the Add To Cart Button after the spinner disappears",
             "result": {
               "status": "passed",
-              "duration": 637000000
+              "duration": 454000000
             }
           },
           {
@@ -132,7 +132,7 @@
             "name": "I check that there is a counter displayed at the top off the page and the count down works",
             "result": {
               "status": "passed",
-              "duration": 6518000000
+              "duration": 3226000000
             }
           },
           {
@@ -142,17 +142,17 @@
             "name": "I click the \"Checkout\" button",
             "result": {
               "status": "passed",
-              "duration": 332000000
+              "duration": 376000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 18,
-            "name": "I fill in the customer general information",
+            "name": "I should not see \"Overide price?\" button",
             "result": {
               "status": "passed",
-              "duration": 21565000000
+              "duration": 72000000
             }
           }
         ]

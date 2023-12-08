@@ -4,6 +4,7 @@ class AccountsPage {
   constructor() {
     this.elements = {
       navbarItem: (navText) => cy.get(`button.chakra-button`).contains(navText),
+      tabItem: (tabText) => cy.get(`div.chakra-card>button.chakra-button`).contains(tabText),
       logoutBtn: (navText) => cy.get(`button.chakra-button`).contains(navText),
       tabs: (index) =>
         cy

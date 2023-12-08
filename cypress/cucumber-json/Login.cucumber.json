@@ -32,7 +32,7 @@
             "name": "I navigate to the \"login\" page on the selected environment",
             "result": {
               "status": "passed",
-              "duration": 4448000000
+              "duration": 1552000000
             }
           },
           {
@@ -42,7 +42,7 @@
             "name": "I should see the \"login\" modal displayed",
             "result": {
               "status": "passed",
-              "duration": 3858000000
+              "duration": 292000000
             }
           },
           {
@@ -52,7 +52,7 @@
             "name": "I should see that there is an \"Email\" label",
             "result": {
               "status": "passed",
-              "duration": 80000000
+              "duration": 95000000
             }
           },
           {
@@ -62,7 +62,7 @@
             "name": "I should see that there is an \"username\" input field",
             "result": {
               "status": "passed",
-              "duration": 51000000
+              "duration": 73000000
             }
           },
           {
@@ -72,7 +72,7 @@
             "name": "I should see that there is an \"Password\" label",
             "result": {
               "status": "passed",
-              "duration": 133000000
+              "duration": 109000000
             }
           },
           {
@@ -82,7 +82,7 @@
             "name": "I should see that there is an \"password\" input field",
             "result": {
               "status": "passed",
-              "duration": 69000000
+              "duration": 38000000
             }
           },
           {
@@ -92,7 +92,7 @@
             "name": "I should see that there is a \"Sign in\" button with the correct css properties",
             "result": {
               "status": "passed",
-              "duration": 120000000
+              "duration": 94000000
             }
           },
           {
@@ -102,7 +102,7 @@
             "name": "I should also see that there is a \"Forgot your password?\" link on the login page with the correct css properties",
             "result": {
               "status": "passed",
-              "duration": 91000000
+              "duration": 78000000
             }
           }
         ]
@@ -131,7 +131,7 @@
             "name": "I navigate to the \"login\" page on the selected environment",
             "result": {
               "status": "passed",
-              "duration": 1693000000
+              "duration": 1152000000
             }
           },
           {
@@ -141,7 +141,7 @@
             "name": "I login using valid \"taye.oyelekan@expian.io\" and \"Radio9*981tai\"",
             "result": {
               "status": "passed",
-              "duration": 3288000000
+              "duration": 1362000000
             }
           }
         ]
@@ -170,7 +170,7 @@
             "name": "I navigate to the \"login\" page on the selected environment",
             "result": {
               "status": "passed",
-              "duration": 2404000000
+              "duration": 998000000
             }
           },
           {
@@ -180,7 +180,7 @@
             "name": "I login using invalid \"taye.oyelekan@expian.io\" and \"Radio9\"",
             "result": {
               "status": "passed",
-              "duration": 3542000000
+              "duration": 1552000000
             }
           },
           {
@@ -189,8 +189,8 @@
             "line": 29,
             "name": "I should see \"The username or password you entered is invalid\" displayed",
             "result": {
-              "status": "passed",
-              "duration": 44000000
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 40000ms: expected '<div.amplify-alert__body>' to have text 'The username or password you entered is invalid', but the text was 'Incorrect username or password.'\n    + expected - actual\n\n    -'Incorrect username or password.'\n    +'The username or password you entered is invalid'\n\n    at Context.eval (cypress/integration/Login.js:40:9)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
             }
           },
           {
@@ -199,8 +199,7 @@
             "line": 30,
             "name": "user is not logged into account area",
             "result": {
-              "status": "passed",
-              "duration": 13000000
+              "status": "skipped"
             }
           }
         ]

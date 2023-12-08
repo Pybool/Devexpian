@@ -32,7 +32,7 @@
             "name": "I am logged into Account area",
             "result": {
               "status": "passed",
-              "duration": 6550000000
+              "duration": 3102000000
             }
           },
           {
@@ -42,7 +42,7 @@
             "name": "I click the \"Patronages\" navigation link",
             "result": {
               "status": "passed",
-              "duration": 265000000
+              "duration": 431000000
             }
           },
           {
@@ -52,7 +52,7 @@
             "name": "I check the the \"patronage\" button \"color\" is \"rgb(15, 28, 42)\" just \"before\" selecting for \"1 year without rounding\"",
             "result": {
               "status": "passed",
-              "duration": 802000000
+              "duration": 936000000
             }
           },
           {
@@ -62,7 +62,7 @@
             "name": "I check the the \"patronage\" button \"backgroundColor\" is \"rgb(125, 227, 203)\" just \"before\" selecting for \"1 year without rounding\"",
             "result": {
               "status": "passed",
-              "duration": 206000000
+              "duration": 211000000
             }
           },
           {
@@ -72,7 +72,7 @@
             "name": "I select a \"patronage\" plan for \"1 year without rounding\" for purchase",
             "result": {
               "status": "passed",
-              "duration": 719000000
+              "duration": 562000000
             }
           },
           {
@@ -82,7 +82,7 @@
             "name": "I check the the \"patronage\" button \"color\" is \"rgb(225, 226, 228)\" just \"after\" selecting for \"1 year without rounding\"",
             "result": {
               "status": "passed",
-              "duration": 456000000
+              "duration": 207000000
             }
           },
           {
@@ -92,7 +92,7 @@
             "name": "I check the the \"patronage\" button \"backgroundColor\" is \"rgb(29, 53, 62)\" just \"after\" selecting for \"1 year without rounding\"",
             "result": {
               "status": "passed",
-              "duration": 311000000
+              "duration": 129000000
             }
           },
           {
@@ -102,7 +102,7 @@
             "name": "I click the \"Checkout\" button",
             "result": {
               "status": "passed",
-              "duration": 4163000000
+              "duration": 2022000000
             }
           },
           {
@@ -112,7 +112,7 @@
             "name": "I fill in the customer general information",
             "result": {
               "status": "passed",
-              "duration": 20467000000
+              "duration": 16997000000
             }
           },
           {
@@ -132,7 +132,7 @@
             "name": "I check that the expiration date is on the same day next year as today",
             "result": {
               "status": "passed",
-              "duration": 1510000000
+              "duration": 1535000000
             }
           },
           {
@@ -142,7 +142,7 @@
             "name": "I check that the order reference is same as that on the order complete page",
             "result": {
               "status": "passed",
-              "duration": 92000000
+              "duration": 125000000
             }
           }
         ]
@@ -171,7 +171,7 @@
             "name": "I am logged into Account area",
             "result": {
               "status": "passed",
-              "duration": 5088000000
+              "duration": 3526000000
             }
           },
           {
@@ -181,7 +181,7 @@
             "name": "I click the \"Patronages\" navigation link",
             "result": {
               "status": "passed",
-              "duration": 247000000
+              "duration": 553000000
             }
           },
           {
@@ -191,7 +191,7 @@
             "name": "I check the the \"patronage\" button \"color\" is \"rgb(15, 28, 42)\" just \"before\" selecting for \"1 year with rounding\"",
             "result": {
               "status": "passed",
-              "duration": 840000000
+              "duration": 951000000
             }
           },
           {
@@ -201,7 +201,7 @@
             "name": "I check the the \"patronage\" button \"backgroundColor\" is \"rgb(125, 227, 203)\" just \"before\" selecting for \"1 year with rounding\"",
             "result": {
               "status": "passed",
-              "duration": 123000000
+              "duration": 133000000
             }
           },
           {
@@ -211,7 +211,7 @@
             "name": "I select a \"patronage\" plan for \"1 year with rounding\" for purchase",
             "result": {
               "status": "passed",
-              "duration": 403000000
+              "duration": 627000000
             }
           },
           {
@@ -221,7 +221,7 @@
             "name": "I check the the \"patronage\" button \"color\" is \"rgb(225, 226, 228)\" just \"after\" selecting for \"1 year with rounding\"",
             "result": {
               "status": "passed",
-              "duration": 295000000
+              "duration": 315000000
             }
           },
           {
@@ -231,7 +231,7 @@
             "name": "I check the the \"patronage\" button \"backgroundColor\" is \"rgb(29, 53, 62)\" just \"after\" selecting for \"1 year with rounding\"",
             "result": {
               "status": "passed",
-              "duration": 181000000
+              "duration": 345000000
             }
           },
           {
@@ -241,7 +241,7 @@
             "name": "I click the \"Checkout\" button",
             "result": {
               "status": "passed",
-              "duration": 2978000000
+              "duration": 2796000000
             }
           },
           {
@@ -251,7 +251,7 @@
             "name": "I fill in the customer general information",
             "result": {
               "status": "passed",
-              "duration": 18962000000
+              "duration": 22698000000
             }
           },
           {
@@ -261,7 +261,7 @@
             "name": "I click the \"View Order\" link button",
             "result": {
               "status": "passed",
-              "duration": 448000000
+              "duration": 697000000
             }
           },
           {
@@ -271,7 +271,7 @@
             "name": "I check that the expiration date is on the month end next year of the same month",
             "result": {
               "status": "failed",
-              "error_message": "AssertionError: Timed out retrying after 40000ms: Expected to find content: 'Valid until: Dec 31, 2024' within the element: <p.chakra-text.css-itvw0n> but never did.\n    at Membership.validatePurchaseAndExpiration (cypress/pom/membership.js:64:9)\n    at Context.eval (cypress/integration/memberships.js:73:15)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+              "error_message": "AssertionError: Timed out retrying after 40000ms: Expected to find content: 'Valid until: Dec 31, 2024' within the element: <p.chakra-text.css-itvw0n> but never did.\n    at Membership.validatePurchaseAndExpiration (cypress/pom/membership.js:65:9)\n    at Context.eval (cypress/integration/memberships.js:73:15)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
             }
           },
           {
@@ -309,7 +309,7 @@
             "name": "I am logged into Account area",
             "result": {
               "status": "passed",
-              "duration": 9203000000
+              "duration": 6078000000
             }
           },
           {
@@ -319,7 +319,7 @@
             "name": "I click the \"Patronages\" navigation link",
             "result": {
               "status": "passed",
-              "duration": 759000000
+              "duration": 577000000
             }
           },
           {
@@ -329,7 +329,7 @@
             "name": "I check the the \"patronage\" button \"color\" is \"rgb(15, 28, 42)\" just \"before\" selecting for \"1 month with rounding\"",
             "result": {
               "status": "passed",
-              "duration": 1582000000
+              "duration": 1091000000
             }
           },
           {
@@ -339,7 +339,7 @@
             "name": "I check the the \"patronage\" button \"backgroundColor\" is \"rgb(125, 227, 203)\" just \"before\" selecting for \"1 month with rounding\"",
             "result": {
               "status": "passed",
-              "duration": 481000000
+              "duration": 461000000
             }
           },
           {
@@ -349,7 +349,7 @@
             "name": "I select a \"patronage\" plan for \"1 month with rounding\" for purchase",
             "result": {
               "status": "passed",
-              "duration": 1360000000
+              "duration": 1087000000
             }
           },
           {
@@ -359,7 +359,7 @@
             "name": "I check the the \"patronage\" button \"color\" is \"rgb(225, 226, 228)\" just \"after\" selecting for \"1 month with rounding\"",
             "result": {
               "status": "passed",
-              "duration": 1954000000
+              "duration": 1134000000
             }
           },
           {
@@ -369,7 +369,7 @@
             "name": "I check the the \"patronage\" button \"backgroundColor\" is \"rgb(29, 53, 62)\" just \"after\" selecting for \"1 month with rounding\"",
             "result": {
               "status": "passed",
-              "duration": 864000000
+              "duration": 616000000
             }
           },
           {
@@ -379,7 +379,7 @@
             "name": "I click the \"Checkout\" button",
             "result": {
               "status": "passed",
-              "duration": 3670000000
+              "duration": 4000000000
             }
           },
           {
@@ -389,7 +389,7 @@
             "name": "I fill in the customer general information",
             "result": {
               "status": "passed",
-              "duration": 36411000000
+              "duration": 32685000000
             }
           },
           {
@@ -399,7 +399,7 @@
             "name": "I click the \"View Order\" link button",
             "result": {
               "status": "passed",
-              "duration": 1203000000
+              "duration": 985000000
             }
           },
           {
@@ -409,7 +409,7 @@
             "name": "I check that the expiration date is on the month end of the next month",
             "result": {
               "status": "failed",
-              "error_message": "AssertionError: Timed out retrying after 40000ms: Expected to find content: 'Valid until: Jan 31, 2024' within the element: <p.chakra-text.css-itvw0n> but never did.\n    at Membership.validatePurchaseAndExpiration (cypress/pom/membership.js:93:9)\n    at Context.eval (cypress/integration/memberships.js:80:15)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+              "error_message": "AssertionError: Timed out retrying after 40000ms: Expected to find content: 'Valid until: Jan 31, 2024' within the element: <p.chakra-text.css-itvw0n> but never did.\n    at Membership.validatePurchaseAndExpiration (cypress/pom/membership.js:94:9)\n    at Context.eval (cypress/integration/memberships.js:80:15)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
             }
           },
           {
@@ -419,6 +419,136 @@
             "name": "I check that the order reference is same as that on the order complete page",
             "result": {
               "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "ensure-that-patronages-can-be-purchased;on-selected-environment-i-ensure-that-patronages-shows-expired-once-validity-has-passed",
+        "keyword": "Scenario",
+        "line": 67,
+        "name": "On selected environment i ensure that patronages shows expired once validity has passed",
+        "tags": [
+          {
+            "name": "@automated",
+            "line": 66
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 68,
+            "name": "I am logged into Account area",
+            "result": {
+              "status": "passed",
+              "duration": 6663000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 69,
+            "name": "The account page should show the user email and have header \"Welcome back\"",
+            "result": {
+              "status": "passed",
+              "duration": 7858000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 70,
+            "name": "I click the \"Patronages\" navigation link",
+            "result": {
+              "status": "passed",
+              "duration": 993000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 71,
+            "name": "Clicking View information For an expired order",
+            "result": {
+              "status": "passed",
+              "duration": 4801000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 72,
+            "name": "I should see 'Expired' once validity period has passed",
+            "result": {
+              "status": "passed",
+              "duration": 528000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "ensure-that-patronages-can-be-purchased;patronage-should-not-have-lead-member",
+        "keyword": "Scenario",
+        "line": 86,
+        "name": "Patronage should not have lead member",
+        "tags": [
+          {
+            "name": "@automated",
+            "line": 85
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 87,
+            "name": "I am logged into Account area",
+            "result": {
+              "status": "passed",
+              "duration": 6531000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 88,
+            "name": "The account page should show the user email and have header \"Welcome back\"",
+            "result": {
+              "status": "passed",
+              "duration": 6971000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 89,
+            "name": "I click the \"Patronages\" tab link",
+            "result": {
+              "status": "passed",
+              "duration": 859000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 90,
+            "name": "I select the last created \"Patronage\" to cancel it",
+            "result": {
+              "status": "passed",
+              "duration": 873000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 91,
+            "name": "Lead Member section should not be present",
+            "result": {
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 40000ms: Expected not to find content: 'Lead Member Details:' within the element: <h3.chakra-heading.css-1obo821> but continuously found it.\n    at Context.eval (cypress/integration/common.js:67:44)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
             }
           }
         ]

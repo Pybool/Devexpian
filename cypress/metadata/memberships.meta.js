@@ -34,7 +34,7 @@ const membershipMetaData = {
       name: "Expian Office Taye Test Voucher Month With Month Rounding",
       price: "£25.00",
     },
-    
+
   },
   patronageMapping: {
     "1 year without rounding": {
@@ -60,7 +60,13 @@ const membershipMetaData = {
     backgroundColor: "rgb(125, 227, 203)",
     colorSelected: "rgb(255, 255, 255)",
     backgroundColorSelected: "rgb(15, 28, 42)",
+    expiredBackground: "rgb(209, 118, 70)",
+    amendingPageCancelTextColor:"rgb(217, 63, 28)"
   },
+
+  constantProperties:{
+    expiredMembership:"https://booking.default-qa8.ticknovate-test.com/account/orders/DVO5T7KQXJF9Y"
+  }
 }
 
 export default membershipMetaData

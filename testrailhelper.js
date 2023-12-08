@@ -82,11 +82,9 @@ function generateEachCase(test) {
   if (test.length > 0) {
     test[0].elements.forEach((element) => {
       let steps = []
-      let duration = 0
       let status = true
       element.steps.forEach((step) => {
         let additional_info = step.result.status
-        duration += step.result.duration
         if (step.result.status == "failed" || step.result.status == "pending") {
           status = false
           additional_info =

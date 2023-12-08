@@ -1,3 +1,4 @@
+import fns from "../helpers"
 import membershipMetaData from "../metadata/memberships.meta"
 
 class Membership {
@@ -99,6 +100,18 @@ class Membership {
     this.elements
       .orderReferenceHeader()
       .should("have.text", `Order ${Cypress.env("orderId")}`)
+  }
+
+  navigateAndConfirmExpiration(){
+    cy.visit(membershipMetaData.constantProperties.expiredMembership)
+    .then(() => {
+      cy.get('p:contains("Valid until:")')
+        .invoke("text")
+        .then((txt) => {
+          const date = txt.split('Valid until:')[1]
+          expect(fns.checkPastOrFutureDate(date)).to.eq('expired')
+        })
+    })
   }
 }
 

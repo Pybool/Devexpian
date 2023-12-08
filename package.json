@@ -12,7 +12,7 @@
     "lint:fix": "prettier --write . && eslint './**/*.{js,tsx,jsx,ts}' --fix",
     "lint:debug": "DEBUG=eslint:cli-engine eslint --quiet './**/*.{js,tsx,jsx,ts}'",
     "lint:report": "eslint --quiet --output-file eslint_report.json --format json './**/*.{js,tsx,jsx,ts}'",
-    "start:regression-RS2": "cypress run -e TAGS='@test' --headless --env testenv=booking",
+    "start:regression-RS2": "cypress run -e TAGS='test' --headless --env testenv=booking",
     "generate:report": "node cucumber-html-report.js",
     "initialize:testrail": "node testrail.js --init",
     "update:testrail-sections": "node testrail.js --createsubdirs",
