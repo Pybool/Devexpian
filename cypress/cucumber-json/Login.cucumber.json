@@ -1,6 +1,6 @@
 [
   {
-    "description": "    As a tester on Reservations i want to validate the login page to ensure it displays correctly and one can login",
+    "description": "    As a tester i want to validate the login page to ensure it displays correctly and one can login",
     "keyword": "Feature",
     "name": "Customer Login",
     "line": 1,
@@ -9,10 +9,10 @@
     "uri": "Login.feature",
     "elements": [
       {
-        "id": "customer-login;on-reservations-environment-i-ensure-that-the-login-page-is-rendered-correctly",
+        "id": "customer-login;on-selected-environment-i-ensure-that-the-login-page-is-rendered-correctly",
         "keyword": "Scenario",
         "line": 5,
-        "name": "On Reservations environment i ensure that the login page is rendered correctly",
+        "name": "On selected environment i ensure that the login page is rendered correctly",
         "tags": [
           {
             "name": "@automated",
@@ -20,6 +20,10 @@
           },
           {
             "name": "@functional",
+            "line": 4
+          },
+          {
+            "name": "@test",
             "line": 4
           }
         ],
@@ -32,7 +36,7 @@
             "name": "I navigate to the \"login\" page on the selected environment",
             "result": {
               "status": "passed",
-              "duration": 1552000000
+              "duration": 2966000000
             }
           },
           {
@@ -42,84 +46,94 @@
             "name": "I should see the \"login\" modal displayed",
             "result": {
               "status": "passed",
-              "duration": 292000000
+              "duration": 282000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 8,
-            "name": "I should see that there is an \"Email\" label",
+            "name": "I should see that the \"Sign In\" tab is highlighted on the top border",
             "result": {
               "status": "passed",
-              "duration": 95000000
+              "duration": 249000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 9,
-            "name": "I should see that there is an \"username\" input field",
+            "name": "I should see that there is an \"Email\" label",
             "result": {
               "status": "passed",
-              "duration": 73000000
+              "duration": 101000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 10,
-            "name": "I should see that there is an \"Password\" label",
+            "name": "I should see that there is an \"username\" input field",
             "result": {
               "status": "passed",
-              "duration": 109000000
+              "duration": 55000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 11,
-            "name": "I should see that there is an \"password\" input field",
+            "name": "I should see that there is an \"Password\" label",
             "result": {
               "status": "passed",
-              "duration": 38000000
+              "duration": 93000000
             }
           },
           {
             "arguments": [],
-            "keyword": "And ",
+            "keyword": "Then ",
             "line": 12,
-            "name": "I should see that there is a \"Sign in\" button with the correct css properties",
+            "name": "I should see that there is an \"password\" input field",
             "result": {
               "status": "passed",
-              "duration": 94000000
+              "duration": 49000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 13,
+            "name": "I should see that there is a \"Sign in\" button with the correct css properties",
+            "result": {
+              "status": "passed",
+              "duration": 115000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
             "name": "I should also see that there is a \"Forgot your password?\" link on the login page with the correct css properties",
             "result": {
               "status": "passed",
-              "duration": 78000000
+              "duration": 120000000
             }
           }
         ]
       },
       {
-        "id": "customer-login;on-reservations-environment-i-proceed-to-enter-my-correct-credentials-and-login-successfully",
+        "id": "customer-login;on-selected-environment-i-proceed-to-enter-my-correct-credentials-and-login-successfully",
         "keyword": "Scenario",
-        "line": 22,
-        "name": "On Reservations environment i proceed to enter my correct credentials and login successfully",
+        "line": 23,
+        "name": "On selected environment i proceed to enter my correct credentials and login successfully",
         "tags": [
           {
             "name": "@automated",
-            "line": 15
+            "line": 16
           },
           {
             "name": "@functional",
-            "line": 15
+            "line": 16
           }
         ],
         "type": "scenario",
@@ -127,21 +141,31 @@
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 17,
+            "line": 18,
             "name": "I navigate to the \"login\" page on the selected environment",
             "result": {
               "status": "passed",
-              "duration": 1152000000
+              "duration": 1497000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 18,
+            "line": 19,
             "name": "I login using valid \"taye.oyelekan@expian.io\" and \"Radio9*981tai\"",
             "result": {
               "status": "passed",
-              "duration": 1362000000
+              "duration": 2035000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "The account page should show the user email and have header \"Welcome back\"",
+            "result": {
+              "status": "passed",
+              "duration": 5600000000
             }
           }
         ]
@@ -149,16 +173,16 @@
       {
         "id": "customer-login;user-enters-incorrect-login",
         "keyword": "Scenario",
-        "line": 33,
+        "line": 34,
         "name": "User enters incorrect login",
         "tags": [
           {
             "name": "@automated",
-            "line": 25
+            "line": 26
           },
           {
             "name": "@functional",
-            "line": 25
+            "line": 26
           }
         ],
         "type": "scenario",
@@ -166,40 +190,81 @@
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 27,
+            "line": 28,
             "name": "I navigate to the \"login\" page on the selected environment",
             "result": {
               "status": "passed",
-              "duration": 998000000
+              "duration": 2135000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 28,
+            "line": 29,
             "name": "I login using invalid \"taye.oyelekan@expian.io\" and \"Radio9\"",
             "result": {
               "status": "passed",
-              "duration": 1552000000
+              "duration": 1975000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 29,
-            "name": "I should see \"The username or password you entered is invalid\" displayed",
+            "line": 30,
+            "name": "I should see \"Incorrect username or password.\" displayed",
             "result": {
-              "status": "failed",
-              "error_message": "AssertionError: Timed out retrying after 40000ms: expected '<div.amplify-alert__body>' to have text 'The username or password you entered is invalid', but the text was 'Incorrect username or password.'\n    + expected - actual\n\n    -'Incorrect username or password.'\n    +'The username or password you entered is invalid'\n\n    at Context.eval (cypress/integration/Login.js:40:9)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+              "status": "passed",
+              "duration": 996000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 30,
+            "line": 31,
             "name": "user is not logged into account area",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 28000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "customer-login;user-is-able-to-logout",
+        "keyword": "Scenario",
+        "line": 36,
+        "name": "User is able to logout",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 37,
+            "name": "I am logged into Account area",
+            "result": {
+              "status": "passed",
+              "duration": 3695000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 38,
+            "name": "I click Logout button",
+            "result": {
+              "status": "passed",
+              "duration": 1596000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 39,
+            "name": "the New Order page displays",
+            "result": {
+              "status": "passed",
+              "duration": 10000000
             }
           }
         ]

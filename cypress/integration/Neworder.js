@@ -68,9 +68,11 @@ Then("I click the {string} button", (checkOutText) => {
 
 Then("I fill in the customer general information", () => {
   ordersPage.fillGeneralInformationForm()
-  ordersPage.elements
+  if(Cypress.env('testenv')==='booking'){
+    ordersPage.elements
     .optionsCheckoutCheckboxes()
     .check({ multiple: true, force: true })
+  }
   ordersPage.elements.continueToPayment().click({ force: true })
   ordersPage.elements.sagePayOption().click()
   ordersPage.fillPaymentInformationForm()

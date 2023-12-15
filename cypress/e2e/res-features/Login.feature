@@ -32,10 +32,4 @@ Feature: Customer Login
             | username                  | password      |
             | taye.oyelekan@expian.io   | Radio9        |
 
-    # # Scenario: User is able to logout
-    # #     Given I am logged into Account area
-    # #     When I click Logout button
-    # #     Then the New Order page displays
-    # #     # And The Login button displays
-
 
