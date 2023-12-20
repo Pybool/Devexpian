@@ -36,7 +36,7 @@
             "name": "I navigate to the \"login\" page on the selected environment",
             "result": {
               "status": "passed",
-              "duration": 2966000000
+              "duration": 2778000000
             }
           },
           {
@@ -46,7 +46,7 @@
             "name": "I should see the \"login\" modal displayed",
             "result": {
               "status": "passed",
-              "duration": 282000000
+              "duration": 443000000
             }
           },
           {
@@ -56,7 +56,7 @@
             "name": "I should see that the \"Sign In\" tab is highlighted on the top border",
             "result": {
               "status": "passed",
-              "duration": 249000000
+              "duration": 404000000
             }
           },
           {
@@ -66,7 +66,7 @@
             "name": "I should see that there is an \"Email\" label",
             "result": {
               "status": "passed",
-              "duration": 101000000
+              "duration": 117000000
             }
           },
           {
@@ -76,7 +76,7 @@
             "name": "I should see that there is an \"username\" input field",
             "result": {
               "status": "passed",
-              "duration": 55000000
+              "duration": 72000000
             }
           },
           {
@@ -86,7 +86,7 @@
             "name": "I should see that there is an \"Password\" label",
             "result": {
               "status": "passed",
-              "duration": 93000000
+              "duration": 150000000
             }
           },
           {
@@ -96,7 +96,7 @@
             "name": "I should see that there is an \"password\" input field",
             "result": {
               "status": "passed",
-              "duration": 49000000
+              "duration": 89000000
             }
           },
           {
@@ -106,7 +106,7 @@
             "name": "I should see that there is a \"Sign in\" button with the correct css properties",
             "result": {
               "status": "passed",
-              "duration": 115000000
+              "duration": 137000000
             }
           },
           {
@@ -116,7 +116,7 @@
             "name": "I should also see that there is a \"Forgot your password?\" link on the login page with the correct css properties",
             "result": {
               "status": "passed",
-              "duration": 120000000
+              "duration": 111000000
             }
           }
         ]
@@ -145,7 +145,7 @@
             "name": "I navigate to the \"login\" page on the selected environment",
             "result": {
               "status": "passed",
-              "duration": 1497000000
+              "duration": 3481000000
             }
           },
           {
@@ -155,7 +155,7 @@
             "name": "I login using valid \"taye.oyelekan@expian.io\" and \"Radio9*981tai\"",
             "result": {
               "status": "passed",
-              "duration": 2035000000
+              "duration": 2158000000
             }
           },
           {
@@ -165,7 +165,7 @@
             "name": "The account page should show the user email and have header \"Welcome back\"",
             "result": {
               "status": "passed",
-              "duration": 5600000000
+              "duration": 4776000000
             }
           }
         ]
@@ -194,7 +194,7 @@
             "name": "I navigate to the \"login\" page on the selected environment",
             "result": {
               "status": "passed",
-              "duration": 2135000000
+              "duration": 2512000000
             }
           },
           {
@@ -204,7 +204,7 @@
             "name": "I login using invalid \"taye.oyelekan@expian.io\" and \"Radio9\"",
             "result": {
               "status": "passed",
-              "duration": 1975000000
+              "duration": 1826000000
             }
           },
           {
@@ -214,7 +214,7 @@
             "name": "I should see \"Incorrect username or password.\" displayed",
             "result": {
               "status": "passed",
-              "duration": 996000000
+              "duration": 1062000000
             }
           },
           {
@@ -224,7 +224,7 @@
             "name": "user is not logged into account area",
             "result": {
               "status": "passed",
-              "duration": 28000000
+              "duration": 9000000
             }
           }
         ]
@@ -244,7 +244,7 @@
             "name": "I am logged into Account area",
             "result": {
               "status": "passed",
-              "duration": 3695000000
+              "duration": 3837000000
             }
           },
           {
@@ -254,7 +254,7 @@
             "name": "I click Logout button",
             "result": {
               "status": "passed",
-              "duration": 1596000000
+              "duration": 1801000000
             }
           },
           {
@@ -264,7 +264,7 @@
             "name": "the New Order page displays",
             "result": {
               "status": "passed",
-              "duration": 10000000
+              "duration": 4000000
             }
           }
         ]

@@ -1,7 +1,7 @@
 Feature: Ensure that the accounts page is rendered correctly after login
     As a tester i want to validate the account page to ensure it displays correctly
 
-    @automated @functional
+    @tester
     Scenario: On selected environment i ensure that the accounts page is rendered correctly
         When I navigate to the "login" page on the selected environment
         Then I login using valid "taye.oyelekan@expian.io" and "Radio9*981tai"

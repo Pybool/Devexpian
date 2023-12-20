@@ -74,7 +74,23 @@ Feature: Ensure that memberships can be purchased
         Then I check that the order reference is same as that on the order complete page
 
 
-
+    @automated @rs2-create-order @till
+    Scenario: On ReservationFunctional : Create an order with Payment By T2' child for when choosing who
+        When I navigate to the "login" page on the selected environment
+        Then I login using valid "<username>" and "<password>"
+        Then I click on the "New Order" button on the landing page
+        Then I use "Place Order On Behalf" feature to purchase entitlement for "taye.oyelekan@expian.io"
+        When I click on the "Entitlements" button on the new order page
+        Then I should see subtabs "Memberships", "Patronages" and "Vouchers" displayed
+        Then I click the "Memberships" subtab to buy a new "Membership"
+        Then I select a "membership" for purchase for "1 year without rounding"
+        Then The Add To Cart button should be visible
+        Then I click Add To Cart button after the spinner disappears
+        Then I click the "Checkout" button
+        Then I fill in the customer general information
+        # Then I click the "View Order" link button
+        Then The 'Add Seats' button should be active and i proceed to checkout by paying by till
+        Then I confirm the new order is displayed in the orders table
 
     # @automated
     # Scenario: On Reservations environment i ensure that memberships shows expired once validity has passed

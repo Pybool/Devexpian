@@ -3,6 +3,58 @@ import OrdersPage from "../pom/Neworder"
 
 const ordersPage = OrdersPage
 
+// function completeOrderExternal(url,cartToken){
+//   cy.request({
+//     method: 'POST',
+//     url: url,
+//     body: {
+//       key1: 'value1',
+//       key2: 'value2'
+//     },
+//     headers: {
+//       'Content-Type': 'application/json',
+//       'cart-token': cartToken,
+//       'Accept':'*/*'
+//     }
+//   }).then((response) => {
+//     expect(response.status).to.equal(200);
+//     const urlSegments = url.split('/');
+//     const extractedValue = urlSegments[urlSegments.length - 2];
+//     rs2.saveToSessionStorage('order_id',extractedValue)
+//   });
+// }
+
+// function executeFnInWindow(){
+//   cy.window().then((win) => {
+//       win.console.defaultLog = win.console.log.bind(console);
+//       win.console.logs = [];
+//       win.console.log = function(){
+//           win.console.defaultLog.apply(console, arguments);
+//           win.console.logs.push(Array.from(arguments));
+//       };
+
+//       win.TICKNOVATE_HOST = {
+//         externalPayment: true,
+//         sendMessage: (message) => { console.log(message); },
+//         deviceId: 'YOUR_DEVICE_ID'
+//       };
+//   });
+// }
+
+// executeFnInWindow()
+//   cy.get('div.chakra-collapse').parent().find('button').contains('Checkout',{timeout:x6}).should('exist').click({force:true}) 
+//   cy.window().then((win) => {
+//       try{
+//         const resp = win.console.logs[win.console.logs.length-1][1]
+//         const url = resp?.completionUrl
+//         const cartToken = resp.cart.token
+//         win.localStorage.setItem('url', url )
+//         win.localStorage.setItem('cartToken',cartToken)
+//         completeOrderExternal(url,cartToken)
+//       }
+//       catch(err){}
+//   }) 
+
 Then(
   "I click on {string} in the navigation bar after reaching landing page",
   (navItem) => {

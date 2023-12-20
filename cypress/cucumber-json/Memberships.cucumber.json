@@ -9,168 +9,518 @@
     "uri": "Memberships.feature",
     "elements": [
       {
-        "id": "ensure-that-memberships-can-be-purchased;on-reservations-environment-i-ensure-that-memberships-can-be-purchased-for-1-month-with-month-rounding",
+        "id": "ensure-that-memberships-can-be-purchased;on-selected-environment-i-ensure-that-memberships-can-be-purchased-for-1-year-no-month-rounding",
         "keyword": "Scenario",
-        "line": 59,
-        "name": "On Reservations environment i ensure that memberships can be purchased for 1 month with month rounding",
+        "line": 5,
+        "name": "On selected environment i ensure that memberships can be purchased for 1 year no month rounding",
         "tags": [
           {
             "name": "@automated",
-            "line": 58
+            "line": 4
           },
           {
             "name": "@functional",
-            "line": 58
+            "line": 4
           }
         ],
         "type": "scenario",
         "steps": [
           {
             "arguments": [],
-            "keyword": "When ",
-            "line": 60,
-            "name": "I navigate to the \"login\" page on the selected environment",
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I am logged into Account area",
             "result": {
               "status": "passed",
-              "duration": 9713000000
+              "duration": 5506000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I click the \"Memberships\" navigation link",
+            "result": {
+              "status": "passed",
+              "duration": 297000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I check the the \"membership\" button \"color\" is \"rgb(15, 28, 42)\" just \"before\" selecting for \"1 year without rounding\"",
+            "result": {
+              "status": "failed",
+              "duration": 41758000000,
+              "error_message": "AssertionError: Timed out retrying after 40000ms: Expected to find content: 'Expian Office Taye Test Membership Year No Month Rounding' within the element: <p.chakra-text.css-0> but never did.\n    at Object.selectMembershipButton (cypress/pom/membership.js:10:11)\n    at checkCss (cypress/integration/memberships.js:39:9)\n    at Context.eval (cypress/integration/memberships.js:45:6)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I check the the \"membership\" button \"backgroundColor\" is \"rgb(125, 227, 203)\" just \"before\" selecting for \"1 year without rounding\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I select a \"membership\" plan for \"1 year without rounding\" for purchase",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I check the the \"membership\" button \"color\" is \"rgb(225, 226, 228)\" just \"after\" selecting for \"1 year without rounding\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I check the the \"membership\" button \"backgroundColor\" is \"rgb(29, 53, 62)\" just \"after\" selecting for \"1 year without rounding\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "I click the \"Checkout\" button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I fill in the customer general information",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "I click the \"View Order\" link button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "I check that the expiration date is on the same day next year as today",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "I check that the order reference is same as that on the order complete page",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "ensure-that-memberships-can-be-purchased;on-selected-environment-i-ensure-that-memberships-can-be-purchased-for-1-year-with-month-rounding",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "On selected environment i ensure that memberships can be purchased for 1 year with month rounding",
+        "tags": [
+          {
+            "name": "@automated",
+            "line": 20
+          },
+          {
+            "name": "@functional",
+            "line": 20
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 22,
+            "name": "I am logged into Account area",
+            "result": {
+              "status": "passed",
+              "duration": 5827000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "I click the \"Memberships\" navigation link",
+            "result": {
+              "status": "passed",
+              "duration": 494000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "I check the the \"membership\" button \"color\" is \"rgb(15, 28, 42)\" just \"before\" selecting for \"1 year with rounding\"",
+            "result": {
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 40000ms: Expected to find content: 'Expian Office Taye Test Membership Year With Month Rounding' within the element: <p.chakra-text.css-0> but never did.\n    at Object.selectMembershipButton (cypress/pom/membership.js:10:11)\n    at checkCss (cypress/integration/memberships.js:39:9)\n    at Context.eval (cypress/integration/memberships.js:45:6)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "I check the the \"membership\" button \"backgroundColor\" is \"rgb(125, 227, 203)\" just \"before\" selecting for \"1 year with rounding\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "I select a \"membership\" plan for \"1 year with rounding\" for purchase",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "I check the the \"membership\" button \"color\" is \"rgb(225, 226, 228)\" just \"after\" selecting for \"1 year with rounding\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 28,
+            "name": "I check the the \"membership\" button \"backgroundColor\" is \"rgb(29, 53, 62)\" just \"after\" selecting for \"1 year with rounding\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 29,
+            "name": "I click the \"Checkout\" button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 30,
+            "name": "I fill in the customer general information",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 31,
+            "name": "I click the \"View Order\" link button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "I check that the expiration date is on the month end next year of the same month",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 33,
+            "name": "I check that the order reference is same as that on the order complete page",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "ensure-that-memberships-can-be-purchased;on-selected-environment-i-ensure-that-memberships-can-be-purchased-for-1-month-no-month-rounding",
+        "keyword": "Scenario",
+        "line": 52,
+        "name": "On selected environment i ensure that memberships can be purchased for 1 month no month rounding",
+        "tags": [
+          {
+            "name": "@automated",
+            "line": 51
+          },
+          {
+            "name": "@functional",
+            "line": 51
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 53,
+            "name": "I am logged into Account area",
+            "result": {
+              "status": "passed",
+              "duration": 5812000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 54,
+            "name": "I click the \"Memberships\" navigation link",
+            "result": {
+              "status": "passed",
+              "duration": 1329000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 55,
+            "name": "I check the the \"membership\" button \"color\" is \"rgb(15, 28, 42)\" just \"before\" selecting for \"1 month with rounding\"",
+            "result": {
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 40000ms: Expected to find content: 'Expian Office Taye Test Membership Month With Month Rounding' within the element: <p.chakra-text.css-0> but never did.\n    at Object.selectMembershipButton (cypress/pom/membership.js:10:11)\n    at checkCss (cypress/integration/memberships.js:39:9)\n    at Context.eval (cypress/integration/memberships.js:45:6)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 56,
+            "name": "I check the the \"membership\" button \"backgroundColor\" is \"rgb(125, 227, 203)\" just \"before\" selecting for \"1 month with rounding\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 57,
+            "name": "I select a \"membership\" plan for \"1 month with rounding\" for purchase",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 58,
+            "name": "I check the the \"membership\" button \"color\" is \"rgb(225, 226, 228)\" just \"after\" selecting for \"1 month with rounding\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 59,
+            "name": "I check the the \"membership\" button \"backgroundColor\" is \"rgb(29, 53, 62)\" just \"after\" selecting for \"1 month with rounding\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 60,
+            "name": "I click the \"Checkout\" button",
+            "result": {
+              "status": "skipped"
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 61,
-            "name": "I login using valid \"<username>\" and \"<password>\"",
+            "name": "I fill in the customer general information",
             "result": {
-              "status": "passed",
-              "duration": 9889000000
+              "status": "skipped"
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 62,
-            "name": "I click on the \"New Order\" button on the landing page",
+            "name": "I click the \"View Order\" link button",
             "result": {
-              "status": "passed",
-              "duration": 8229000000
+              "status": "skipped"
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 63,
-            "name": "I use \"Place Order On Behalf\" feature to purchase entitlement for \"taye.oyelekan@expian.io\"",
+            "name": "I check that the expiration date is on the month end of the next month",
             "result": {
-              "status": "passed",
-              "duration": 8997000000
+              "status": "skipped"
             }
           },
           {
             "arguments": [],
-            "keyword": "When ",
+            "keyword": "Then ",
             "line": 64,
-            "name": "I click on the \"Entitlements\" button on the new order page",
+            "name": "I check that the order reference is same as that on the order complete page",
             "result": {
-              "status": "passed",
-              "duration": 2017000000
+              "status": "skipped"
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "ensure-that-memberships-can-be-purchased;on-selected-environment-i-ensure-that-memberships-shows-expired-once-validity-has-passed",
+        "keyword": "Scenario",
+        "line": 67,
+        "name": "On selected environment i ensure that memberships shows expired once validity has passed",
+        "tags": [
+          {
+            "name": "@automated",
+            "line": 66
+          }
+        ],
+        "type": "scenario",
+        "steps": [
           {
             "arguments": [],
-            "keyword": "Then ",
-            "line": 65,
-            "name": "I should see subtabs \"Memberships\", \"Patronages\" and \"Vouchers\" displayed",
-            "result": {
-              "status": "passed",
-              "duration": 1881000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 66,
-            "name": "I click the \"Memberships\" subtab to buy a new \"Membership\"",
-            "result": {
-              "status": "passed",
-              "duration": 1290000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 67,
-            "name": "I select a \"membership\" for purchase for \"1 month with rounding\"",
-            "result": {
-              "status": "passed",
-              "duration": 1241000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
+            "keyword": "Given ",
             "line": 68,
-            "name": "The Add To Cart button should be visible",
+            "name": "I am logged into Account area",
             "result": {
               "status": "passed",
-              "duration": 1811000000
+              "duration": 17154000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 69,
-            "name": "I click Add To Cart button after the spinner disappears",
+            "name": "The account page should show the user email and have header \"Welcome back\"",
             "result": {
               "status": "passed",
-              "duration": 1745000000
+              "duration": 2843000000
             }
           },
           {
             "arguments": [],
-            "keyword": "Then ",
+            "keyword": "When ",
             "line": 70,
-            "name": "I click the \"Checkout\" button",
+            "name": "I click the \"Memberships\" navigation link",
             "result": {
               "status": "passed",
-              "duration": 7150000000
+              "duration": 703000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 71,
-            "name": "I fill in the customer general information",
+            "name": "Clicking View information For an expired order",
             "result": {
-              "status": "passed",
-              "duration": 164346000000
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 40000ms: Expected to find element: `p:contains(\"Valid until:\")`, but never found it.\n    at Context.eval (cypress/pom/membership.js:108:9)"
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 72,
-            "name": "I click the \"View Order\" link button",
+            "name": "I should see 'Expired' once validity period has passed",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "ensure-that-memberships-can-be-purchased;membership-should-not-have-lead-member",
+        "keyword": "Scenario",
+        "line": 86,
+        "name": "Membership should not have lead member",
+        "tags": [
+          {
+            "name": "@automated",
+            "line": 85
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 87,
+            "name": "I am logged into Account area",
             "result": {
               "status": "passed",
-              "duration": 5597000000
+              "duration": 6431000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 73,
-            "name": "I check that the expiration date is on the month end of the next month",
+            "line": 88,
+            "name": "The account page should show the user email and have header \"Welcome back\"",
+            "result": {
+              "status": "passed",
+              "duration": 3923000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 89,
+            "name": "I click the \"Memberships\" tab link",
+            "result": {
+              "status": "passed",
+              "duration": 511000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 90,
+            "name": "I select the last created \"Membership\" to cancel it",
             "result": {
               "status": "failed",
-              "duration": 46084000000,
-              "error_message": "AssertionError: Timed out retrying after 40000ms: Expected to find content: 'Valid until: Jan 31, 2024' within the element: <p.chakra-text.css-itvw0n> but never did.\n    at Membership.validatePurchaseAndExpiration (cypress/pom/membership.js:94:9)\n    at Context.eval (cypress/integration/memberships.js:80:15)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+              "error_message": "AssertionError: Timed out retrying after 40000ms: Expected to find element: `h3`, but never found it.\n    at Context.eval (cypress/integration/common.js:41:5)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 74,
-            "name": "I check that the order reference is same as that on the order complete page",
+            "line": 91,
+            "name": "Lead Member section should not be present",
             "result": {
               "status": "skipped"
             }

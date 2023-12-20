@@ -15,11 +15,7 @@
         "name": "On selected environment i ensure that the accounts page is rendered correctly",
         "tags": [
           {
-            "name": "@automated",
-            "line": 4
-          },
-          {
-            "name": "@functional",
+            "name": "@tester",
             "line": 4
           }
         ],
@@ -32,7 +28,7 @@
             "name": "I navigate to the \"login\" page on the selected environment",
             "result": {
               "status": "passed",
-              "duration": 3500000000
+              "duration": 6302000000
             }
           },
           {
@@ -42,7 +38,7 @@
             "name": "I login using valid \"taye.oyelekan@expian.io\" and \"Radio9*981tai\"",
             "result": {
               "status": "passed",
-              "duration": 2636000000
+              "duration": 23784000000
             }
           },
           {
@@ -51,8 +47,9 @@
             "line": 8,
             "name": "The account page should show the user email and have header \"Welcome back\"",
             "result": {
-              "status": "passed",
-              "duration": 11907000000
+              "status": "failed",
+              "duration": 50138000000,
+              "error_message": "AssertionError: Timed out retrying after 40000ms: Expected to find content: 'Welcome back' within the element: <h2.chakra-heading.css-1jb3vzl> but never did.\n    at Object.loginHeader (cypress/pom/Loginpage.js:8:44)\n    at Context.eval (cypress/integration/Login.js:57:7)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
             }
           },
           {
@@ -61,8 +58,7 @@
             "line": 9,
             "name": "I ensure that all nav links are complete and visible with each having an Icon",
             "result": {
-              "status": "passed",
-              "duration": 971000000
+              "status": "skipped"
             }
           },
           {
@@ -96,8 +92,7 @@
             "line": 10,
             "name": "I should see that the Account Area has 6 tabs present",
             "result": {
-              "status": "passed",
-              "duration": 7000000
+              "status": "skipped"
             }
           },
           {
@@ -106,8 +101,7 @@
             "line": 13,
             "name": "For tab \"1\" The \"Number of Upcoming Bookings:\" count when \"0\" , \"No Active Orders\" should be seen in the list below else count should match items displayed",
             "result": {
-              "status": "passed",
-              "duration": 946000000
+              "status": "skipped"
             }
           },
           {
@@ -116,9 +110,7 @@
             "line": 14,
             "name": "For tab \"2\" The \"Number of Passes:\" count when \"0\" , \"No Passes\" should be seen in the list below else count should match items displayed",
             "result": {
-              "status": "failed",
-              "duration": 40759000000,
-              "error_message": "AssertionError: Timed out retrying after 40000ms: Expected to find content: 'No Passes' within the element: <p.chakra-text.css-0> but never did.\n    at Context.eval (cypress/pom/accountspage.js:63:17)"
+              "status": "skipped"
             }
           },
           {
