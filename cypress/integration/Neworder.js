@@ -42,7 +42,7 @@ const ordersPage = OrdersPage
 // }
 
 // executeFnInWindow()
-//   cy.get('div.chakra-collapse').parent().find('button').contains('Checkout',{timeout:x6}).should('exist').click({force:true}) 
+//   cy.get('div.chakra-collapse').parent().find('button').contains('Checkout',{timeout:x6}).should('exist').click({force:true})
 //   cy.window().then((win) => {
 //       try{
 //         const resp = win.console.logs[win.console.logs.length-1][1]
@@ -53,7 +53,7 @@ const ordersPage = OrdersPage
 //         completeOrderExternal(url,cartToken)
 //       }
 //       catch(err){}
-//   }) 
+//   })
 
 Then(
   "I click on {string} in the navigation bar after reaching landing page",

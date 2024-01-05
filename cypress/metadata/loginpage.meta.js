@@ -1,7 +1,7 @@
 const loginMetaData = {
   urls: {
     reservation: {
-      login: "account",
+      login: "login",
       landingpage: "",
     },
     booking: {

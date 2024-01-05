@@ -1,0 +1,612 @@
+[
+  {
+    "description": "As a User I want to validate the reservation page",
+    "keyword": "Feature",
+    "name": "Admin regression page load",
+    "line": 1,
+    "id": "admin-regression-page-load",
+    "tags": [],
+    "uri": "ReservationsLanding.feature",
+    "elements": [
+      {
+        "id": "admin-regression-page-load;on-reservationfunctional-:verify-that-the-reservations-page-is-rendered-correctly",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "On ReservationFunctional :Verify that the Reservations page is rendered correctly",
+        "tags": [
+          {
+            "name": "@automated",
+            "line": 4
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I navigate to the \"login\" page on the selected environment",
+            "result": {
+              "status": "passed",
+              "duration": 2479000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I login using valid \"<username>\" and \"<password>\"",
+            "result": {
+              "status": "passed",
+              "duration": 12120000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I should see a greeting \"Hi Tayé\"",
+            "result": {
+              "status": "passed",
+              "duration": 16000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I should see that the page header is \"Welcome to Reservations\"",
+            "result": {
+              "status": "passed",
+              "duration": 5348000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I should see the New Order button having an Icon on the top right of the page",
+            "result": {
+              "status": "passed",
+              "duration": 177000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "Below the New Order button i should see three buttons \"New Order\" and \"Search Orders\" and \"Scan QR\" on the page",
+            "result": {
+              "status": "passed",
+              "duration": 359000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "Below the three buttons I should see a search bar with placeholder text \"Search Order Reference\" in grey color",
+            "result": {
+              "status": "passed",
+              "duration": 60000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "Beside the search bar I should see a Date Filter Having Values \"Today\" and \"Yesterday\" and \"Last 7 days\" and \"Last 30 days\" in dropdown",
+            "result": {
+              "status": "passed",
+              "duration": 360000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "Below The search bar I should see a table having \"5\" headers with texts \"Reference\", \"Status\", \"Order Placed\", \"Name\", \"Phone Number\" as headers",
+            "result": {
+              "status": "passed",
+              "duration": 1464000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "admin-regression-page-load;on-reservationfunctional-:verify-that-on-the-reservations-table-when-a-row-is-clicked-the-order-preview-widget-appears-and-has-the-correct-contents",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "On ReservationFunctional :Verify that on the Reservations table when a row is clicked the Order Preview widget appears and has the correct contents",
+        "tags": [
+          {
+            "name": "@automated",
+            "line": 16
+          },
+          {
+            "name": "@automated-validate-page",
+            "line": 16
+          },
+          {
+            "name": "@automated-rs2",
+            "line": 16
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "I navigate to the \"login\" page on the selected environment",
+            "result": {
+              "status": "passed",
+              "duration": 7816000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "I login using valid \"<username>\" and \"<password>\"",
+            "result": {
+              "status": "passed",
+              "duration": 5234000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "I click on the a row in the table for an order ID",
+            "result": {
+              "status": "passed",
+              "duration": 6362000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "I should see the Order Preview widget",
+            "result": {
+              "status": "passed",
+              "duration": 622000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "The Order Preview widget should contain \"Customer Details:\" \"Booking Details:\" \"Ticket Details:\" and \"Total:\" section",
+            "result": {
+              "status": "passed",
+              "duration": 713000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "The Order Preview widget should have a \"View Order Details\" button with background colors \"rgb(125, 227, 203)\"",
+            "result": {
+              "status": "passed",
+              "duration": 174000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "admin-regression-page-load;on-reservationfunctional-:verify-that-on-the-order-preview-contact-details-section-has-the-correct-details",
+        "keyword": "Scenario",
+        "line": 26,
+        "name": "On ReservationFunctional :Verify that on the Order Preview contact details section has the correct details",
+        "tags": [
+          {
+            "name": "@automated",
+            "line": 25
+          },
+          {
+            "name": "@automated-validate-page",
+            "line": 25
+          },
+          {
+            "name": "@automated-rs2",
+            "line": 25
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 27,
+            "name": "I navigate to the \"login\" page on the selected environment",
+            "result": {
+              "status": "passed",
+              "duration": 3069000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 28,
+            "name": "I login using valid \"<username>\" and \"<password>\"",
+            "result": {
+              "status": "passed",
+              "duration": 6146000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 29,
+            "name": "I click on the a row in the table for an order ID",
+            "result": {
+              "status": "passed",
+              "duration": 7049000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 30,
+            "name": "I should see the Order Preview widget",
+            "result": {
+              "status": "passed",
+              "duration": 914000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 31,
+            "name": "The Order Preview widget \"Customer Details:\" should contains a Name Label and the name in the Table matches the name on the Label value",
+            "result": {
+              "status": "passed",
+              "duration": 419000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 32,
+            "name": "The Order Preview widget \"Customer Details:\" should contains a Email Label and the Email should be a valid Email Address",
+            "result": {
+              "status": "passed",
+              "duration": 665000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "admin-regression-page-load;on-reservationfunctional-:verify-that-if-booking-details-shows-redeemed-the-redeem-booking-button-does-not-show-and-vice-versa",
+        "keyword": "Scenario",
+        "line": 35,
+        "name": "On ReservationFunctional :Verify that if Booking Details shows Redeemed the Redeem Booking Button does not show and Vice Versa",
+        "tags": [
+          {
+            "name": "@automated",
+            "line": 34
+          },
+          {
+            "name": "@automated-validate-page",
+            "line": 34
+          },
+          {
+            "name": "@automated-rs2",
+            "line": 34
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 36,
+            "name": "I navigate to the \"login\" page on the selected environment",
+            "result": {
+              "status": "passed",
+              "duration": 2910000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 37,
+            "name": "I login using valid \"<username>\" and \"<password>\"",
+            "result": {
+              "status": "passed",
+              "duration": 4592000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 38,
+            "name": "I click on the a row in the table for an order ID",
+            "result": {
+              "status": "passed",
+              "duration": 5748000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 39,
+            "name": "I should see the Order Preview widget",
+            "result": {
+              "status": "passed",
+              "duration": 681000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 40,
+            "name": "The \"Booking Details:\" section in Booking Redemption shows \"Tickets not redeemed\" The \"Redeem Booking\" button does show and Vice Versa",
+            "result": {
+              "status": "passed",
+              "duration": 1351000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "admin-regression-page-load;verify-that-the-date-search-filter-works-correctly-when-today-is-selected",
+        "keyword": "Scenario",
+        "line": 44,
+        "name": "verify that the date search filter works correctly when today is selected",
+        "tags": [
+          {
+            "name": "@automated",
+            "line": 43
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 45,
+            "name": "I navigate to the \"login\" page on the selected environment",
+            "result": {
+              "status": "passed",
+              "duration": 5080000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 46,
+            "name": "I login using valid \"<username>\" and \"<password>\"",
+            "result": {
+              "status": "passed",
+              "duration": 6703000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 47,
+            "name": "I have orders created \"Today\"",
+            "result": {
+              "status": "passed",
+              "duration": 5135000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 48,
+            "name": "I select \"Today\" in the filter",
+            "result": {
+              "status": "passed",
+              "duration": 792000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 49,
+            "name": "I should see a spinner loading",
+            "result": {
+              "status": "passed",
+              "duration": 142000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 50,
+            "name": "The spinner disappears",
+            "result": {
+              "status": "passed",
+              "duration": 751000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 51,
+            "name": "The entries in the table should all have \"Today\" date",
+            "result": {
+              "status": "passed",
+              "duration": 25000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "admin-regression-page-load;verify-that-the-date-search-filter-works-correctly-when-yesterday-is-selected",
+        "keyword": "Scenario",
+        "line": 54,
+        "name": "verify that the date search filter works correctly when yesterday is selected",
+        "tags": [
+          {
+            "name": "@automated",
+            "line": 53
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 55,
+            "name": "I navigate to the \"login\" page on the selected environment",
+            "result": {
+              "status": "passed",
+              "duration": 3315000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 56,
+            "name": "I login using valid \"<username>\" and \"<password>\"",
+            "result": {
+              "status": "passed",
+              "duration": 4470000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 57,
+            "name": "I have orders created \"Yesterday\"",
+            "result": {
+              "status": "passed",
+              "duration": 5668000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 58,
+            "name": "I select \"Yesterday\" in the filter",
+            "result": {
+              "status": "passed",
+              "duration": 822000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 59,
+            "name": "I should see a spinner loading",
+            "result": {
+              "status": "passed",
+              "duration": 133000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 60,
+            "name": "The spinner disappears",
+            "result": {
+              "status": "passed",
+              "duration": 687000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 61,
+            "name": "The entries in the table should all have \"Yesterday\" date",
+            "result": {
+              "status": "passed",
+              "duration": 97000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "admin-regression-page-load;verify-that-the-date-search-filter-works-correctly-when-last-7-days-is-selected",
+        "keyword": "Scenario",
+        "line": 64,
+        "name": "verify that the date search filter works correctly when last 7 days is selected",
+        "tags": [
+          {
+            "name": "@automated",
+            "line": 63
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 65,
+            "name": "I navigate to the \"login\" page on the selected environment",
+            "result": {
+              "status": "passed",
+              "duration": 1430000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 66,
+            "name": "I login using valid \"<username>\" and \"<password>\"",
+            "result": {
+              "status": "passed",
+              "duration": 3867000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 67,
+            "name": "I have orders created \"Last 7 days\"",
+            "result": {
+              "status": "passed",
+              "duration": 5179000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 68,
+            "name": "I select \"Last 7 days\" in the filter",
+            "result": {
+              "status": "passed",
+              "duration": 705000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 69,
+            "name": "I should see a spinner loading",
+            "result": {
+              "status": "passed",
+              "duration": 130000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 70,
+            "name": "The spinner disappears",
+            "result": {
+              "status": "passed",
+              "duration": 226000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 71,
+            "name": "The entries in the table should all have dates within the \"Last 7 days\"",
+            "result": {
+              "status": "passed",
+              "duration": 110000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -8,10 +8,12 @@ const loginPage = LoginPage
 const common = Commonpage
 
 When("I navigate to the {string} page on the selected environment", (page) => {
+  Cypress.session.clearAllSavedSessions()
   cy.visit(loginMetaData.urls[Cypress.env('testenv')][page])
 })
 
 When("I navigate to the {string} page on the {string} environment", (page,env) => {
+  Cypress.session.clearAllSavedSessions()
   cy.visit(loginMetaData.urls[env][page])
 })
 
