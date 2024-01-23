@@ -1,18 +1,18 @@
 [
   {
-    "description": "    As a tester i want to ensure that memberships can be purchased",
+    "description": "    As a tester i want to ensure that vouchers can be purchased",
     "keyword": "Feature",
-    "name": "Ensure that memberships can be purchased",
+    "name": "Ensure that vouchers can be purchased",
     "line": 1,
-    "id": "ensure-that-memberships-can-be-purchased",
+    "id": "ensure-that-vouchers-can-be-purchased",
     "tags": [],
-    "uri": "Memberships.feature",
+    "uri": "Vouchers.feature",
     "elements": [
       {
-        "id": "ensure-that-memberships-can-be-purchased;on-selected-environment-i-ensure-that-memberships-can-be-purchased-for-1-year-no-month-rounding",
+        "id": "ensure-that-vouchers-can-be-purchased;on-selected-environment-i-ensure-that-vouchers-can-be-purchased-for-1-year-no-month-rounding",
         "keyword": "Scenario",
         "line": 5,
-        "name": "On selected environment i ensure that memberships can be purchased for 1 year no month rounding",
+        "name": "On selected environment i ensure that vouchers can be purchased for 1 year no month rounding",
         "tags": [
           {
             "name": "@automated",
@@ -32,67 +32,67 @@
             "name": "I am logged into Account area",
             "result": {
               "status": "passed",
-              "duration": 6002000000
+              "duration": 5549000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "line": 7,
-            "name": "I click the \"Memberships\" navigation link",
+            "name": "I click the \"Vouchers\" navigation link",
             "result": {
               "status": "passed",
-              "duration": 573000000
+              "duration": 511000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 8,
-            "name": "I check the the \"membership\" button \"color\" is \"rgb(15, 28, 42)\" just \"before\" selecting for \"1 year without rounding\"",
+            "name": "I check the the \"voucher\" button \"color\" is \"rgb(15, 28, 42)\" just \"before\" selecting for \"1 year without rounding\"",
             "result": {
               "status": "passed",
-              "duration": 2251000000
+              "duration": 1927000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 9,
-            "name": "I check the the \"membership\" button \"backgroundColor\" is \"rgb(125, 227, 203)\" just \"before\" selecting for \"1 year without rounding\"",
+            "name": "I check the the \"voucher\" button \"backgroundColor\" is \"rgb(125, 227, 203)\" just \"before\" selecting for \"1 year without rounding\"",
             "result": {
               "status": "passed",
-              "duration": 388000000
+              "duration": 347000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 10,
-            "name": "I select a \"membership\" plan for \"1 year without rounding\" for purchase",
+            "name": "I select a \"voucher\" plan for \"1 year without rounding\" for purchase",
             "result": {
               "status": "passed",
-              "duration": 1378000000
+              "duration": 867000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 11,
-            "name": "I check the the \"membership\" button \"color\" is \"rgb(225, 226, 228)\" just \"after\" selecting for \"1 year without rounding\"",
+            "name": "I check the the \"voucher\" button \"color\" is \"rgb(225, 226, 228)\" just \"after\" selecting for \"1 year without rounding\"",
             "result": {
               "status": "passed",
-              "duration": 733000000
+              "duration": 466000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 12,
-            "name": "I check the the \"membership\" button \"backgroundColor\" is \"rgb(29, 53, 62)\" just \"after\" selecting for \"1 year without rounding\"",
+            "name": "I check the the \"voucher\" button \"backgroundColor\" is \"rgb(29, 53, 62)\" just \"after\" selecting for \"1 year without rounding\"",
             "result": {
               "status": "passed",
-              "duration": 412000000
+              "duration": 231000000
             }
           },
           {
@@ -102,7 +102,7 @@
             "name": "I click the \"Checkout\" button",
             "result": {
               "status": "passed",
-              "duration": 4275000000
+              "duration": 2298000000
             }
           },
           {
@@ -112,7 +112,7 @@
             "name": "I fill in the customer general information",
             "result": {
               "status": "passed",
-              "duration": 39346000000
+              "duration": 28578000000
             }
           },
           {
@@ -122,7 +122,7 @@
             "name": "I click the \"View Order\" link button",
             "result": {
               "status": "passed",
-              "duration": 996000000
+              "duration": 954000000
             }
           },
           {
@@ -132,7 +132,7 @@
             "name": "I check that the expiration date is on the same day next year as today",
             "result": {
               "status": "passed",
-              "duration": 2900000000
+              "duration": 2636000000
             }
           },
           {
@@ -142,16 +142,16 @@
             "name": "I check that the order reference is same as that on the order complete page",
             "result": {
               "status": "passed",
-              "duration": 352000000
+              "duration": 183000000
             }
           }
         ]
       },
       {
-        "id": "ensure-that-memberships-can-be-purchased;on-selected-environment-i-ensure-that-memberships-can-be-purchased-for-1-year-with-month-rounding",
+        "id": "ensure-that-vouchers-can-be-purchased;on-selected-environment-i-ensure-that-vouchers-can-be-purchased-for-1-year-with-month-rounding",
         "keyword": "Scenario",
         "line": 21,
-        "name": "On selected environment i ensure that memberships can be purchased for 1 year with month rounding",
+        "name": "On selected environment i ensure that vouchers can be purchased for 1 year with month rounding",
         "tags": [
           {
             "name": "@automated",
@@ -171,67 +171,67 @@
             "name": "I am logged into Account area",
             "result": {
               "status": "passed",
-              "duration": 9602000000
+              "duration": 9493000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "line": 23,
-            "name": "I click the \"Memberships\" navigation link",
+            "name": "I click the \"Vouchers\" navigation link",
             "result": {
               "status": "passed",
-              "duration": 561000000
+              "duration": 750000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 24,
-            "name": "I check the the \"membership\" button \"color\" is \"rgb(15, 28, 42)\" just \"before\" selecting for \"1 year with rounding\"",
+            "name": "I check the the \"voucher\" button \"color\" is \"rgb(15, 28, 42)\" just \"before\" selecting for \"1 year with rounding\"",
             "result": {
               "status": "passed",
-              "duration": 1928000000
+              "duration": 1347000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 25,
-            "name": "I check the the \"membership\" button \"backgroundColor\" is \"rgb(125, 227, 203)\" just \"before\" selecting for \"1 year with rounding\"",
+            "name": "I check the the \"voucher\" button \"backgroundColor\" is \"rgb(125, 227, 203)\" just \"before\" selecting for \"1 year with rounding\"",
             "result": {
               "status": "passed",
-              "duration": 378000000
+              "duration": 235000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 26,
-            "name": "I select a \"membership\" plan for \"1 year with rounding\" for purchase",
+            "name": "I select a \"voucher\" plan for \"1 year with rounding\" for purchase",
             "result": {
               "status": "passed",
-              "duration": 1524000000
+              "duration": 1057000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 27,
-            "name": "I check the the \"membership\" button \"color\" is \"rgb(225, 226, 228)\" just \"after\" selecting for \"1 year with rounding\"",
+            "name": "I check the the \"voucher\" button \"color\" is \"rgb(225, 226, 228)\" just \"after\" selecting for \"1 year with rounding\"",
             "result": {
               "status": "passed",
-              "duration": 794000000
+              "duration": 508000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 28,
-            "name": "I check the the \"membership\" button \"backgroundColor\" is \"rgb(29, 53, 62)\" just \"after\" selecting for \"1 year with rounding\"",
+            "name": "I check the the \"voucher\" button \"backgroundColor\" is \"rgb(29, 53, 62)\" just \"after\" selecting for \"1 year with rounding\"",
             "result": {
               "status": "passed",
-              "duration": 588000000
+              "duration": 350000000
             }
           },
           {
@@ -241,7 +241,7 @@
             "name": "I click the \"Checkout\" button",
             "result": {
               "status": "passed",
-              "duration": 3358000000
+              "duration": 5093000000
             }
           },
           {
@@ -251,7 +251,7 @@
             "name": "I fill in the customer general information",
             "result": {
               "status": "passed",
-              "duration": 37348000000
+              "duration": 33070000000
             }
           },
           {
@@ -261,7 +261,7 @@
             "name": "I click the \"View Order\" link button",
             "result": {
               "status": "passed",
-              "duration": 1659000000
+              "duration": 1013000000
             }
           },
           {
@@ -286,149 +286,10 @@
         ]
       },
       {
-        "id": "ensure-that-memberships-can-be-purchased;on-selected-environment-i-ensure-that-memberships-can-be-purchased-for-1-month-no-month-rounding",
-        "keyword": "Scenario",
-        "line": 37,
-        "name": "On selected environment i ensure that memberships can be purchased for 1 month no month rounding",
-        "tags": [
-          {
-            "name": "@automated",
-            "line": 36
-          },
-          {
-            "name": "@functional",
-            "line": 36
-          }
-        ],
-        "type": "scenario",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 38,
-            "name": "I am logged into Account area",
-            "result": {
-              "status": "passed",
-              "duration": 16155000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 39,
-            "name": "I click the \"Memberships\" navigation link",
-            "result": {
-              "status": "passed",
-              "duration": 1482000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 40,
-            "name": "I check the the \"membership\" button \"color\" is \"rgb(15, 28, 42)\" just \"before\" selecting for \"1 month without rounding\"",
-            "result": {
-              "status": "passed",
-              "duration": 3145000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 41,
-            "name": "I check the the \"membership\" button \"backgroundColor\" is \"rgb(125, 227, 203)\" just \"before\" selecting for \"1 month without rounding\"",
-            "result": {
-              "status": "passed",
-              "duration": 909000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 42,
-            "name": "I select a \"membership\" plan for \"1 month without rounding\" for purchase",
-            "result": {
-              "status": "passed",
-              "duration": 1495000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 43,
-            "name": "I check the the \"membership\" button \"color\" is \"rgb(225, 226, 228)\" just \"after\" selecting for \"1 month without rounding\"",
-            "result": {
-              "status": "passed",
-              "duration": 1368000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 44,
-            "name": "I check the the \"membership\" button \"backgroundColor\" is \"rgb(29, 53, 62)\" just \"after\" selecting for \"1 month without rounding\"",
-            "result": {
-              "status": "passed",
-              "duration": 653000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 45,
-            "name": "I click the \"Checkout\" button",
-            "result": {
-              "status": "passed",
-              "duration": 4692000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 46,
-            "name": "I fill in the customer general information",
-            "result": {
-              "status": "passed",
-              "duration": 68472000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 47,
-            "name": "I click the \"View Order\" link button",
-            "result": {
-              "status": "passed",
-              "duration": 5800000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 48,
-            "name": "I check that the expiration date is on the same day next month as today",
-            "result": {
-              "status": "passed",
-              "duration": 8995000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 49,
-            "name": "I check that the order reference is same as that on the order complete page",
-            "result": {
-              "status": "passed",
-              "duration": 863000000
-            }
-          }
-        ]
-      },
-      {
-        "id": "ensure-that-memberships-can-be-purchased;on-selected-environment-i-ensure-that-memberships-can-be-purchased-for-1-month-with-month-rounding",
+        "id": "ensure-that-vouchers-can-be-purchased;on-selected-environment-i-ensure-that-vouchers-can-be-purchased-for-1-month-no-month-rounding",
         "keyword": "Scenario",
         "line": 52,
-        "name": "On selected environment i ensure that memberships can be purchased for 1 month with month rounding",
+        "name": "On selected environment i ensure that vouchers can be purchased for 1 month no month rounding",
         "tags": [
           {
             "name": "@automated",
@@ -448,67 +309,67 @@
             "name": "I am logged into Account area",
             "result": {
               "status": "passed",
-              "duration": 14373000000
+              "duration": 19827000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "line": 54,
-            "name": "I click the \"Memberships\" navigation link",
+            "name": "I click the \"Vouchers\" navigation link",
             "result": {
               "status": "passed",
-              "duration": 898000000
+              "duration": 1227000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 55,
-            "name": "I check the the \"membership\" button \"color\" is \"rgb(15, 28, 42)\" just \"before\" selecting for \"1 month with rounding\"",
+            "name": "I check the the \"voucher\" button \"color\" is \"rgb(15, 28, 42)\" just \"before\" selecting for \"1 month with rounding\"",
             "result": {
               "status": "passed",
-              "duration": 2619000000
+              "duration": 1956000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 56,
-            "name": "I check the the \"membership\" button \"backgroundColor\" is \"rgb(125, 227, 203)\" just \"before\" selecting for \"1 month with rounding\"",
+            "name": "I check the the \"voucher\" button \"backgroundColor\" is \"rgb(125, 227, 203)\" just \"before\" selecting for \"1 month with rounding\"",
             "result": {
               "status": "passed",
-              "duration": 801000000
+              "duration": 1206000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 57,
-            "name": "I select a \"membership\" plan for \"1 month with rounding\" for purchase",
+            "name": "I select a \"voucher\" plan for \"1 month with rounding\" for purchase",
             "result": {
               "status": "passed",
-              "duration": 1709000000
+              "duration": 1629000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 58,
-            "name": "I check the the \"membership\" button \"color\" is \"rgb(225, 226, 228)\" just \"after\" selecting for \"1 month with rounding\"",
+            "name": "I check the the \"voucher\" button \"color\" is \"rgb(225, 226, 228)\" just \"after\" selecting for \"1 month with rounding\"",
             "result": {
               "status": "passed",
-              "duration": 1708000000
+              "duration": 1114000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 59,
-            "name": "I check the the \"membership\" button \"backgroundColor\" is \"rgb(29, 53, 62)\" just \"after\" selecting for \"1 month with rounding\"",
+            "name": "I check the the \"voucher\" button \"backgroundColor\" is \"rgb(29, 53, 62)\" just \"after\" selecting for \"1 month with rounding\"",
             "result": {
               "status": "passed",
-              "duration": 1329000000
+              "duration": 537000000
             }
           },
           {
@@ -518,7 +379,7 @@
             "name": "I click the \"Checkout\" button",
             "result": {
               "status": "passed",
-              "duration": 4727000000
+              "duration": 4165000000
             }
           },
           {
@@ -528,7 +389,7 @@
             "name": "I fill in the customer general information",
             "result": {
               "status": "passed",
-              "duration": 63963000000
+              "duration": 51468000000
             }
           },
           {
@@ -538,7 +399,7 @@
             "name": "I click the \"View Order\" link button",
             "result": {
               "status": "passed",
-              "duration": 2205000000
+              "duration": 1956000000
             }
           },
           {
@@ -563,10 +424,10 @@
         ]
       },
       {
-        "id": "ensure-that-memberships-can-be-purchased;on-selected-environment-i-ensure-that-memberships-shows-expired-once-validity-has-passed",
+        "id": "ensure-that-vouchers-can-be-purchased;on-selected-environment-i-ensure-that-vouchers-shows-expired-once-validity-has-passed",
         "keyword": "Scenario",
         "line": 67,
-        "name": "On selected environment i ensure that memberships shows expired once validity has passed",
+        "name": "On selected environment i ensure that Vouchers shows expired once validity has passed",
         "tags": [
           {
             "name": "@automated",
@@ -582,7 +443,7 @@
             "name": "I am logged into Account area",
             "result": {
               "status": "passed",
-              "duration": 18238000000
+              "duration": 17414000000
             }
           },
           {
@@ -592,17 +453,17 @@
             "name": "The account page should show the user email and have header \"Welcome back\"",
             "result": {
               "status": "passed",
-              "duration": 12744000000
+              "duration": 14680000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "line": 70,
-            "name": "I click the \"Memberships\" navigation link",
+            "name": "I click the \"Vouchers\" navigation link",
             "result": {
               "status": "passed",
-              "duration": 1765000000
+              "duration": 2316000000
             }
           },
           {
@@ -627,10 +488,103 @@
         ]
       },
       {
-        "id": "ensure-that-memberships-can-be-purchased;membership-should-not-have-lead-member",
+        "id": "ensure-that-vouchers-can-be-purchased;on-selected-environment-i-ensure-that-i-can-cancel-a-patronage-entitlement",
+        "keyword": "Scenario",
+        "line": 75,
+        "name": "On selected environment i ensure that i can cancel a patronage entitlement",
+        "tags": [
+          {
+            "name": "@automated",
+            "line": 74
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 76,
+            "name": "I am logged into Account area",
+            "result": {
+              "status": "passed",
+              "duration": 20744000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 77,
+            "name": "The account page should show the user email and have header \"Welcome back\"",
+            "result": {
+              "status": "passed",
+              "duration": 12841000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 78,
+            "name": "I click the \"Vouchers\" tab link",
+            "result": {
+              "status": "passed",
+              "duration": 1816000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 79,
+            "name": "I select the last created \"Voucher\" to cancel it",
+            "result": {
+              "status": "passed",
+              "duration": 2025000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 80,
+            "name": "I click the More Actions button",
+            "result": {
+              "status": "passed",
+              "duration": 9267000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 81,
+            "name": "I click the \"Cancel Order\" option in the dropdown",
+            "result": {
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 40000ms: Expected to find content: 'Cancel Order' within the element: <span> but never did.\n    at Object.spanTextButton (cypress/pom/commonpage.js:8:54)\n    at Context.eval (cypress/integration/common.js:52:18)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 82,
+            "name": "I validate the i am on the Amend Booking page with the correct OrderID",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 83,
+            "name": "I click the refund button",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "ensure-that-vouchers-can-be-purchased;voucher-should-have-lead-member",
         "keyword": "Scenario",
         "line": 86,
-        "name": "Membership should not have lead member",
+        "name": "Voucher should have lead member",
         "tags": [
           {
             "name": "@automated",
@@ -646,7 +600,7 @@
             "name": "I am logged into Account area",
             "result": {
               "status": "passed",
-              "duration": 15404000000
+              "duration": 18923000000
             }
           },
           {
@@ -656,37 +610,37 @@
             "name": "The account page should show the user email and have header \"Welcome back\"",
             "result": {
               "status": "passed",
-              "duration": 8637000000
+              "duration": 20468000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "line": 89,
-            "name": "I click the \"Memberships\" tab link",
+            "name": "I click the \"Vouchers\" tab link",
             "result": {
               "status": "passed",
-              "duration": 1380000000
+              "duration": 1434000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 90,
-            "name": "I select the last created \"Membership\" to cancel it",
+            "name": "I select the last created \"Voucher\" to cancel it",
             "result": {
               "status": "passed",
-              "duration": 1625000000
+              "duration": 1666000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 91,
-            "name": "Lead Member section should not be present",
+            "name": "Lead Member section should be present",
             "result": {
               "status": "failed",
-              "error_message": "AssertionError: Timed out retrying after 40000ms: Expected not to find content: 'Lead Member Details:' within the element: <h3.chakra-heading.css-1obo821> but continuously found it.\n    at Context.eval (cypress/integration/common.js:69:44)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+              "error_message": "AssertionError: Timed out retrying after 40000ms: Expected to find content: 'Lead Member Details:' within the element: <h3.chakra-heading.css-1obo821> but never did.\n    at Context.eval (cypress/integration/common.js:73:44)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
             }
           }
         ]

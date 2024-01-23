@@ -55,6 +55,7 @@ const membershipMetaData = {
     },
   },
 
+
   css: {
     color: "rgb(15, 28, 42)",
     backgroundColor: "rgb(125, 227, 203)",

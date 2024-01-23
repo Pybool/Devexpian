@@ -32,7 +32,7 @@
             "name": "I am logged into Account area",
             "result": {
               "status": "passed",
-              "duration": 16421000000
+              "duration": 34444000000
             }
           },
           {
@@ -42,7 +42,7 @@
             "name": "I click the \"Patronages\" navigation link",
             "result": {
               "status": "passed",
-              "duration": 815000000
+              "duration": 621000000
             }
           },
           {
@@ -51,9 +51,8 @@
             "line": 8,
             "name": "I check the the \"patronage\" button \"color\" is \"rgb(15, 28, 42)\" just \"before\" selecting for \"1 year without rounding\"",
             "result": {
-              "status": "failed",
-              "duration": 41678000000,
-              "error_message": "AssertionError: Timed out retrying after 40000ms: Expected to find content: 'Expian Office Taye Test Patronage Year No Month Rounding' within the element: <p.chakra-text.css-0> but never did.\n    at Object.selectMembershipButton (cypress/pom/membership.js:10:11)\n    at checkCss (cypress/integration/memberships.js:39:9)\n    at Context.eval (cypress/integration/memberships.js:45:6)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+              "status": "passed",
+              "duration": 2014000000
             }
           },
           {
@@ -62,7 +61,8 @@
             "line": 9,
             "name": "I check the the \"patronage\" button \"backgroundColor\" is \"rgb(125, 227, 203)\" just \"before\" selecting for \"1 year without rounding\"",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 758000000
             }
           },
           {
@@ -71,7 +71,8 @@
             "line": 10,
             "name": "I select a \"patronage\" plan for \"1 year without rounding\" for purchase",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 1945000000
             }
           },
           {
@@ -80,7 +81,8 @@
             "line": 11,
             "name": "I check the the \"patronage\" button \"color\" is \"rgb(225, 226, 228)\" just \"after\" selecting for \"1 year without rounding\"",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 1551000000
             }
           },
           {
@@ -89,7 +91,8 @@
             "line": 12,
             "name": "I check the the \"patronage\" button \"backgroundColor\" is \"rgb(29, 53, 62)\" just \"after\" selecting for \"1 year without rounding\"",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 689000000
             }
           },
           {
@@ -98,7 +101,8 @@
             "line": 13,
             "name": "I click the \"Checkout\" button",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 3459000000
             }
           },
           {
@@ -107,7 +111,8 @@
             "line": 14,
             "name": "I fill in the customer general information",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 38764000000
             }
           },
           {
@@ -116,7 +121,8 @@
             "line": 15,
             "name": "I click the \"View Order\" link button",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 1231000000
             }
           },
           {
@@ -125,7 +131,8 @@
             "line": 16,
             "name": "I check that the expiration date is on the same day next year as today",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 6511000000
             }
           },
           {
@@ -134,7 +141,8 @@
             "line": 17,
             "name": "I check that the order reference is same as that on the order complete page",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 273000000
             }
           }
         ]
@@ -163,7 +171,7 @@
             "name": "I am logged into Account area",
             "result": {
               "status": "passed",
-              "duration": 6637000000
+              "duration": 7808000000
             }
           },
           {
@@ -173,7 +181,7 @@
             "name": "I click the \"Patronages\" navigation link",
             "result": {
               "status": "passed",
-              "duration": 651000000
+              "duration": 614000000
             }
           },
           {
@@ -182,8 +190,8 @@
             "line": 24,
             "name": "I check the the \"patronage\" button \"color\" is \"rgb(15, 28, 42)\" just \"before\" selecting for \"1 year with rounding\"",
             "result": {
-              "status": "failed",
-              "error_message": "AssertionError: Timed out retrying after 40000ms: Expected to find content: 'Expian Office Taye Test Patronage Year With Month Rounding' within the element: <p.chakra-text.css-0> but never did.\n    at Object.selectMembershipButton (cypress/pom/membership.js:10:11)\n    at checkCss (cypress/integration/memberships.js:39:9)\n    at Context.eval (cypress/integration/memberships.js:45:6)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+              "status": "passed",
+              "duration": 1890000000
             }
           },
           {
@@ -192,7 +200,8 @@
             "line": 25,
             "name": "I check the the \"patronage\" button \"backgroundColor\" is \"rgb(125, 227, 203)\" just \"before\" selecting for \"1 year with rounding\"",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 417000000
             }
           },
           {
@@ -201,7 +210,8 @@
             "line": 26,
             "name": "I select a \"patronage\" plan for \"1 year with rounding\" for purchase",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 1187000000
             }
           },
           {
@@ -210,7 +220,8 @@
             "line": 27,
             "name": "I check the the \"patronage\" button \"color\" is \"rgb(225, 226, 228)\" just \"after\" selecting for \"1 year with rounding\"",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 625000000
             }
           },
           {
@@ -219,7 +230,8 @@
             "line": 28,
             "name": "I check the the \"patronage\" button \"backgroundColor\" is \"rgb(29, 53, 62)\" just \"after\" selecting for \"1 year with rounding\"",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 399000000
             }
           },
           {
@@ -228,7 +240,8 @@
             "line": 29,
             "name": "I click the \"Checkout\" button",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 3945000000
             }
           },
           {
@@ -237,7 +250,8 @@
             "line": 30,
             "name": "I fill in the customer general information",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 36947000000
             }
           },
           {
@@ -246,7 +260,8 @@
             "line": 31,
             "name": "I click the \"View Order\" link button",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 1610000000
             }
           },
           {
@@ -255,7 +270,9 @@
             "line": 32,
             "name": "I check that the expiration date is on the month end next year of the same month",
             "result": {
-              "status": "skipped"
+              "status": "failed",
+              "duration": 1000000,
+              "error_message": "AssertionError: Timed out retrying after 40000ms: Expected to find content: 'Valid until: Jan 31, 2025' within the element: <p.chakra-text.css-itvw0n> but never did.\n    at Membership.validatePurchaseAndExpiration (cypress/pom/membership.js:65:9)\n    at Context.eval (cypress/integration/memberships.js:73:15)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
             }
           },
           {
@@ -293,7 +310,7 @@
             "name": "I am logged into Account area",
             "result": {
               "status": "passed",
-              "duration": 12474000000
+              "duration": 10887000000
             }
           },
           {
@@ -303,7 +320,7 @@
             "name": "I click the \"Patronages\" navigation link",
             "result": {
               "status": "passed",
-              "duration": 1097000000
+              "duration": 1151000000
             }
           },
           {
@@ -312,8 +329,8 @@
             "line": 55,
             "name": "I check the the \"patronage\" button \"color\" is \"rgb(15, 28, 42)\" just \"before\" selecting for \"1 month with rounding\"",
             "result": {
-              "status": "failed",
-              "error_message": "AssertionError: Timed out retrying after 40000ms: Expected to find content: 'Expian Office Taye Test Patronage Month With Month Rounding' within the element: <p.chakra-text.css-0> but never did.\n    at Object.selectMembershipButton (cypress/pom/membership.js:10:11)\n    at checkCss (cypress/integration/memberships.js:39:9)\n    at Context.eval (cypress/integration/memberships.js:45:6)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+              "status": "passed",
+              "duration": 2862000000
             }
           },
           {
@@ -322,7 +339,8 @@
             "line": 56,
             "name": "I check the the \"patronage\" button \"backgroundColor\" is \"rgb(125, 227, 203)\" just \"before\" selecting for \"1 month with rounding\"",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 587000000
             }
           },
           {
@@ -331,7 +349,8 @@
             "line": 57,
             "name": "I select a \"patronage\" plan for \"1 month with rounding\" for purchase",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 3574000000
             }
           },
           {
@@ -340,7 +359,8 @@
             "line": 58,
             "name": "I check the the \"patronage\" button \"color\" is \"rgb(225, 226, 228)\" just \"after\" selecting for \"1 month with rounding\"",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 1179000000
             }
           },
           {
@@ -349,7 +369,8 @@
             "line": 59,
             "name": "I check the the \"patronage\" button \"backgroundColor\" is \"rgb(29, 53, 62)\" just \"after\" selecting for \"1 month with rounding\"",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 551000000
             }
           },
           {
@@ -358,7 +379,8 @@
             "line": 60,
             "name": "I click the \"Checkout\" button",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 4836000000
             }
           },
           {
@@ -367,7 +389,8 @@
             "line": 61,
             "name": "I fill in the customer general information",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 51870000000
             }
           },
           {
@@ -376,7 +399,8 @@
             "line": 62,
             "name": "I click the \"View Order\" link button",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 3121000000
             }
           },
           {
@@ -385,7 +409,8 @@
             "line": 63,
             "name": "I check that the expiration date is on the month end of the next month",
             "result": {
-              "status": "skipped"
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 40000ms: Expected to find content: 'Valid until: Feb 29, 2024' within the element: <p.chakra-text.css-itvw0n> but never did.\n    at Membership.validatePurchaseAndExpiration (cypress/pom/membership.js:94:9)\n    at Context.eval (cypress/integration/memberships.js:80:15)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
             }
           },
           {
@@ -419,7 +444,7 @@
             "name": "I am logged into Account area",
             "result": {
               "status": "passed",
-              "duration": 8012000000
+              "duration": 14550000000
             }
           },
           {
@@ -429,7 +454,7 @@
             "name": "The account page should show the user email and have header \"Welcome back\"",
             "result": {
               "status": "passed",
-              "duration": 7277000000
+              "duration": 19022000000
             }
           },
           {
@@ -439,7 +464,7 @@
             "name": "I click the \"Patronages\" navigation link",
             "result": {
               "status": "passed",
-              "duration": 1159000000
+              "duration": 1570000000
             }
           },
           {
@@ -483,7 +508,7 @@
             "name": "I am logged into Account area",
             "result": {
               "status": "passed",
-              "duration": 10988000000
+              "duration": 15314000000
             }
           },
           {
@@ -493,7 +518,7 @@
             "name": "The account page should show the user email and have header \"Welcome back\"",
             "result": {
               "status": "passed",
-              "duration": 9624000000
+              "duration": 12606000000
             }
           },
           {
@@ -503,7 +528,7 @@
             "name": "I click the \"Patronages\" tab link",
             "result": {
               "status": "passed",
-              "duration": 767000000
+              "duration": 1377000000
             }
           },
           {
@@ -512,8 +537,8 @@
             "line": 90,
             "name": "I select the last created \"Patronage\" to cancel it",
             "result": {
-              "status": "failed",
-              "error_message": "AssertionError: Timed out retrying after 40000ms: Expected to find element: `h3`, but never found it.\n    at Context.eval (cypress/integration/common.js:41:5)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+              "status": "passed",
+              "duration": 1753000000
             }
           },
           {
@@ -522,7 +547,8 @@
             "line": 91,
             "name": "Lead Member section should not be present",
             "result": {
-              "status": "skipped"
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 40000ms: Expected not to find content: 'Lead Member Details:' within the element: <h3.chakra-heading.css-1obo821> but continuously found it.\n    at Context.eval (cypress/integration/common.js:69:44)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
             }
           }
         ]

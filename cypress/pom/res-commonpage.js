@@ -11,7 +11,7 @@ class ResCommonPage {
       newOrderPageTab: (tabText) =>
         cy.get("button.chakra-button").contains(tabText),
       newOrderPageSubTabs: () =>
-        cy.get("div.chakra-card").eq(1).children().eq(1),
+        cy.get("div.chakra-card").eq(0).children().eq(1),
       entitlementOptionsAvailable: (entitlementName) =>
         cy.get("p.chakra-text").contains(entitlementName).parent().parent(),
       placeOrderOnBehalfSwitch: () => cy.get("input.chakra-switch__input"),

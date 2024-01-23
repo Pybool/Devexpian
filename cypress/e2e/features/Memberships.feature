@@ -49,7 +49,7 @@ Feature: Ensure that memberships can be purchased
         Then I check that the order reference is same as that on the order complete page
 
     @automated @functional
-    Scenario: On selected environment i ensure that memberships can be purchased for 1 month no month rounding
+    Scenario: On selected environment i ensure that memberships can be purchased for 1 month with month rounding
         Given I am logged into Account area
         When I click the "Memberships" navigation link
         Then I check the the "membership" button "color" is "rgb(15, 28, 42)" just "before" selecting for "1 month with rounding"
