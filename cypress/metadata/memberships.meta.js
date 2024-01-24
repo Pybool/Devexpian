@@ -66,7 +66,7 @@ const membershipMetaData = {
   },
 
   constantProperties:{
-    expiredMembership:"https://booking.default-qa8.ticknovate-test.com/account/orders/DVO5T7KQXJF9Y"
+    expiredMembership:"https://booking.automation-qa.ticknovate-test.com/account/orders/DVOMPAXMO2PP5"
   }
 }
 

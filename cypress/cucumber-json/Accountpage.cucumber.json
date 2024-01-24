@@ -28,7 +28,7 @@
             "name": "I navigate to the \"login\" page on the selected environment",
             "result": {
               "status": "passed",
-              "duration": 1732000000
+              "duration": 43131000000
             }
           },
           {
@@ -38,7 +38,7 @@
             "name": "I login using valid \"taye.oyelekan@expian.io\" and \"Radio9*981tai\"",
             "result": {
               "status": "passed",
-              "duration": 2579000000
+              "duration": 3864000000
             }
           },
           {
@@ -48,7 +48,7 @@
             "name": "The account page should show the user email and have header \"Welcome back\"",
             "result": {
               "status": "passed",
-              "duration": 10676000000
+              "duration": 14491000000
             }
           },
           {
@@ -58,7 +58,7 @@
             "name": "I ensure that all nav links are complete and visible with each having an Icon",
             "result": {
               "status": "passed",
-              "duration": 654000000
+              "duration": 1719000000
             }
           },
           {
@@ -93,7 +93,7 @@
             "name": "I should see that the Account Area has 6 tabs present",
             "result": {
               "status": "passed",
-              "duration": 6000000
+              "duration": 5000000
             }
           },
           {
@@ -103,7 +103,7 @@
             "name": "For tab \"1\" The \"Number of Upcoming Bookings:\" count when \"0\" , \"No Active Orders\" should be seen in the list below else count should match items displayed",
             "result": {
               "status": "passed",
-              "duration": 647000000
+              "duration": 1533000000
             }
           },
           {
@@ -113,7 +113,6 @@
             "name": "For tab \"2\" The \"Number of Passes:\" count when \"0\" , \"No Passes\" should be seen in the list below else count should match items displayed",
             "result": {
               "status": "failed",
-              "duration": 40841000000,
               "error_message": "AssertionError: Timed out retrying after 40000ms: Expected to find content: 'No Passes' within the element: <p.chakra-text.css-0> but never did.\n    at Context.eval (cypress/pom/accountspage.js:63:17)"
             }
           },
