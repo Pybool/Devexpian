@@ -1,0 +1,848 @@
+[
+  {
+    "description": "    As a tester i want to ensure that memberships can be purchased",
+    "keyword": "Feature",
+    "name": "Ensure that memberships can be purchased",
+    "line": 1,
+    "id": "ensure-that-memberships-can-be-purchased",
+    "tags": [],
+    "uri": "Memberships.feature",
+    "elements": [
+      {
+        "id": "ensure-that-memberships-can-be-purchased;on-reservations-environment-i-ensure-that-memberships-can-be-purchased-for-1-year-no-month-rounding",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "On Reservations environment i ensure that memberships can be purchased for 1 year no month rounding",
+        "tags": [
+          {
+            "name": "@automated",
+            "line": 4
+          },
+          {
+            "name": "@functional",
+            "line": 4
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I navigate to the \"login\" page on the selected environment",
+            "result": {
+              "status": "passed",
+              "duration": 3840000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I login using valid \"<username>\" and \"<password>\"",
+            "result": {
+              "status": "passed",
+              "duration": 14744000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I click on the \"New Order\" button on the landing page",
+            "result": {
+              "status": "passed",
+              "duration": 7796000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I use \"Place Order On Behalf\" feature to purchase entitlement for \"taye.oyelekan@expian.io\"",
+            "result": {
+              "status": "passed",
+              "duration": 9471000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I click on the \"Entitlements\" button on the new order page",
+            "result": {
+              "status": "passed",
+              "duration": 2441000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I should see subtabs \"Memberships\", \"Patronages\" and \"Vouchers\" displayed",
+            "result": {
+              "status": "passed",
+              "duration": 1794000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I click the \"Memberships\" subtab to buy a new \"Membership\"",
+            "result": {
+              "status": "passed",
+              "duration": 1066000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "I select a \"membership\" for purchase for \"1 year without rounding\"",
+            "result": {
+              "status": "passed",
+              "duration": 1263000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "The Add To Cart button should be visible",
+            "result": {
+              "status": "passed",
+              "duration": 1310000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "I click Add To Cart button after the spinner disappears",
+            "result": {
+              "status": "passed",
+              "duration": 1809000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "I click the \"Checkout\" button",
+            "result": {
+              "status": "passed",
+              "duration": 10847000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "I fill in the customer general information",
+            "result": {
+              "status": "passed",
+              "duration": 51249000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "I click the \"View Order\" link button",
+            "result": {
+              "status": "passed",
+              "duration": 2122000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "I check that the expiration date is on the same day next year as today",
+            "result": {
+              "status": "passed",
+              "duration": 5993000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "I check that the order reference is same as that on the order complete page",
+            "result": {
+              "status": "passed",
+              "duration": 284000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "ensure-that-memberships-can-be-purchased;on-reservations-environment-i-ensure-that-memberships-can-be-purchased-for-1-year-with-month-rounding",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "On Reservations environment i ensure that memberships can be purchased for 1 year with month rounding",
+        "tags": [
+          {
+            "name": "@automated",
+            "line": 22
+          },
+          {
+            "name": "@functional",
+            "line": 22
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 24,
+            "name": "I navigate to the \"login\" page on the selected environment",
+            "result": {
+              "status": "passed",
+              "duration": 5436000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "I login using valid \"<username>\" and \"<password>\"",
+            "result": {
+              "status": "passed",
+              "duration": 10249000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "I click on the \"New Order\" button on the landing page",
+            "result": {
+              "status": "passed",
+              "duration": 13136000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "I use \"Place Order On Behalf\" feature to purchase entitlement for \"taye.oyelekan@expian.io\"",
+            "result": {
+              "status": "passed",
+              "duration": 17648000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 28,
+            "name": "I click on the \"Entitlements\" button on the new order page",
+            "result": {
+              "status": "passed",
+              "duration": 2732000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 29,
+            "name": "I should see subtabs \"Memberships\", \"Patronages\" and \"Vouchers\" displayed",
+            "result": {
+              "status": "passed",
+              "duration": 4975000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 30,
+            "name": "I click the \"Memberships\" subtab to buy a new \"Membership\"",
+            "result": {
+              "status": "passed",
+              "duration": 4179000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 31,
+            "name": "I select a \"membership\" for purchase for \"1 year with rounding\"",
+            "result": {
+              "status": "passed",
+              "duration": 2108000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "The Add To Cart button should be visible",
+            "result": {
+              "status": "passed",
+              "duration": 3324000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 33,
+            "name": "I click Add To Cart button after the spinner disappears",
+            "result": {
+              "status": "passed",
+              "duration": 2756000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 34,
+            "name": "I click the \"Checkout\" button",
+            "result": {
+              "status": "passed",
+              "duration": 3265000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 35,
+            "name": "I fill in the customer general information",
+            "result": {
+              "status": "passed",
+              "duration": 76245000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 36,
+            "name": "I click the \"View Order\" link button",
+            "result": {
+              "status": "passed",
+              "duration": 2467000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 37,
+            "name": "I check that the expiration date is on the month end next year of the same month",
+            "result": {
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 40000ms: Expected to find content: 'Valid until: Jan 31, 2025' within the element: <p.chakra-text.css-itvw0n> but never did.\n    at Membership.validatePurchaseAndExpiration (cypress/pom/membership.js:65:9)\n    at Context.eval (cypress/integration/memberships.js:73:15)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 38,
+            "name": "I check that the order reference is same as that on the order complete page",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "ensure-that-memberships-can-be-purchased;on-reservations-environment-i-ensure-that-memberships-can-be-purchased-for-1-month-no-month-rounding",
+        "keyword": "Scenario",
+        "line": 41,
+        "name": "On Reservations environment i ensure that memberships can be purchased for 1 month no month rounding",
+        "tags": [
+          {
+            "name": "@automated",
+            "line": 40
+          },
+          {
+            "name": "@functional",
+            "line": 40
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 42,
+            "name": "I navigate to the \"login\" page on the selected environment",
+            "result": {
+              "status": "passed",
+              "duration": 8407000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 43,
+            "name": "I login using valid \"<username>\" and \"<password>\"",
+            "result": {
+              "status": "passed",
+              "duration": 14151000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 44,
+            "name": "I click on the \"New Order\" button on the landing page",
+            "result": {
+              "status": "passed",
+              "duration": 10669000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 45,
+            "name": "I use \"Place Order On Behalf\" feature to purchase entitlement for \"taye.oyelekan@expian.io\"",
+            "result": {
+              "status": "passed",
+              "duration": 14173000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 46,
+            "name": "I click on the \"Entitlements\" button on the new order page",
+            "result": {
+              "status": "passed",
+              "duration": 7090000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 47,
+            "name": "I should see subtabs \"Memberships\", \"Patronages\" and \"Vouchers\" displayed",
+            "result": {
+              "status": "passed",
+              "duration": 5740000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 48,
+            "name": "I click the \"Memberships\" subtab to buy a new \"Membership\"",
+            "result": {
+              "status": "passed",
+              "duration": 3049000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 49,
+            "name": "I select a \"membership\" for purchase for \"1 month without rounding\"",
+            "result": {
+              "status": "passed",
+              "duration": 2707000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 50,
+            "name": "The Add To Cart button should be visible",
+            "result": {
+              "status": "passed",
+              "duration": 4259000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 51,
+            "name": "I click Add To Cart button after the spinner disappears",
+            "result": {
+              "status": "passed",
+              "duration": 3109000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 52,
+            "name": "I click the \"Checkout\" button",
+            "result": {
+              "status": "passed",
+              "duration": 4965000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 53,
+            "name": "I fill in the customer general information",
+            "result": {
+              "status": "passed",
+              "duration": 91378000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 54,
+            "name": "I click the \"View Order\" link button",
+            "result": {
+              "status": "passed",
+              "duration": 2699000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 55,
+            "name": "I check that the expiration date is on the same day next month as today",
+            "result": {
+              "status": "passed",
+              "duration": 7614000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 56,
+            "name": "I check that the order reference is same as that on the order complete page",
+            "result": {
+              "status": "passed",
+              "duration": 746000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "ensure-that-memberships-can-be-purchased;on-reservations-environment-i-ensure-that-memberships-can-be-purchased-for-1-month-with-month-rounding",
+        "keyword": "Scenario",
+        "line": 59,
+        "name": "On Reservations environment i ensure that memberships can be purchased for 1 month with month rounding",
+        "tags": [
+          {
+            "name": "@automated",
+            "line": 58
+          },
+          {
+            "name": "@functional",
+            "line": 58
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 60,
+            "name": "I navigate to the \"login\" page on the selected environment",
+            "result": {
+              "status": "passed",
+              "duration": 7917000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 61,
+            "name": "I login using valid \"<username>\" and \"<password>\"",
+            "result": {
+              "status": "passed",
+              "duration": 10732000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 62,
+            "name": "I click on the \"New Order\" button on the landing page",
+            "result": {
+              "status": "passed",
+              "duration": 12016000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 63,
+            "name": "I use \"Place Order On Behalf\" feature to purchase entitlement for \"taye.oyelekan@expian.io\"",
+            "result": {
+              "status": "passed",
+              "duration": 16037000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 64,
+            "name": "I click on the \"Entitlements\" button on the new order page",
+            "result": {
+              "status": "passed",
+              "duration": 4213000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 65,
+            "name": "I should see subtabs \"Memberships\", \"Patronages\" and \"Vouchers\" displayed",
+            "result": {
+              "status": "passed",
+              "duration": 5007000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 66,
+            "name": "I click the \"Memberships\" subtab to buy a new \"Membership\"",
+            "result": {
+              "status": "passed",
+              "duration": 2791000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 67,
+            "name": "I select a \"membership\" for purchase for \"1 month with rounding\"",
+            "result": {
+              "status": "passed",
+              "duration": 5125000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 68,
+            "name": "The Add To Cart button should be visible",
+            "result": {
+              "status": "passed",
+              "duration": 4736000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 69,
+            "name": "I click Add To Cart button after the spinner disappears",
+            "result": {
+              "status": "passed",
+              "duration": 3183000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 70,
+            "name": "I click the \"Checkout\" button",
+            "result": {
+              "status": "passed",
+              "duration": 6946000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 71,
+            "name": "I fill in the customer general information",
+            "result": {
+              "status": "passed",
+              "duration": 99563000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 72,
+            "name": "I click the \"View Order\" link button",
+            "result": {
+              "status": "passed",
+              "duration": 4875000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 73,
+            "name": "I check that the expiration date is on the month end of the next month",
+            "result": {
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 40000ms: Expected to find content: 'Valid until: Feb 29, 2024' within the element: <p.chakra-text.css-itvw0n> but never did.\n    at Membership.validatePurchaseAndExpiration (cypress/pom/membership.js:94:9)\n    at Context.eval (cypress/integration/memberships.js:80:15)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 74,
+            "name": "I check that the order reference is same as that on the order complete page",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "ensure-that-memberships-can-be-purchased;on-reservationfunctional-:-create-an-order-with-payment-by-t2'-child-for-when-choosing-who",
+        "keyword": "Scenario",
+        "line": 78,
+        "name": "On ReservationFunctional : Create an order with Payment By T2' child for when choosing who",
+        "tags": [
+          {
+            "name": "@automated",
+            "line": 77
+          },
+          {
+            "name": "@rs2-create-order",
+            "line": 77
+          },
+          {
+            "name": "@till",
+            "line": 77
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 79,
+            "name": "I navigate to the \"login\" page on the selected environment",
+            "result": {
+              "status": "passed",
+              "duration": 10535000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 80,
+            "name": "I login using valid \"<username>\" and \"<password>\"",
+            "result": {
+              "status": "passed",
+              "duration": 15140000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 81,
+            "name": "I click on the \"New Order\" button on the landing page",
+            "result": {
+              "status": "passed",
+              "duration": 14578000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 82,
+            "name": "I use \"Place Order On Behalf\" feature to purchase entitlement for \"taye.oyelekan@expian.io\"",
+            "result": {
+              "status": "passed",
+              "duration": 22389000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 83,
+            "name": "I click on the \"Entitlements\" button on the new order page",
+            "result": {
+              "status": "passed",
+              "duration": 5642000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 84,
+            "name": "I should see subtabs \"Memberships\", \"Patronages\" and \"Vouchers\" displayed",
+            "result": {
+              "status": "passed",
+              "duration": 7054000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 85,
+            "name": "I click the \"Memberships\" subtab to buy a new \"Membership\"",
+            "result": {
+              "status": "passed",
+              "duration": 3693000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 86,
+            "name": "I select a \"membership\" for purchase for \"1 year without rounding\"",
+            "result": {
+              "status": "passed",
+              "duration": 3490000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 87,
+            "name": "The Add To Cart button should be visible",
+            "result": {
+              "status": "passed",
+              "duration": 4404000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 88,
+            "name": "I click Add To Cart button after the spinner disappears",
+            "result": {
+              "status": "passed",
+              "duration": 4256000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 89,
+            "name": "I click the \"Checkout\" button",
+            "result": {
+              "status": "passed",
+              "duration": 12989000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 90,
+            "name": "I fill in the customer general information",
+            "result": {
+              "status": "passed",
+              "duration": 106728000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 92,
+            "name": "The 'Add Seats' button should be active and i proceed to checkout by paying by till",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 93,
+            "name": "I confirm the new order is displayed in the orders table",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

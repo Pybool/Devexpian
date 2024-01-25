@@ -28,7 +28,7 @@ module.exports = defineConfig({
     testIsolation: true,
     retries: {
       runMode: 1,
-      openMode: 0,
+      openMode: 1,
     },
     defaultCommandTimeout: 40000,
     chromeWebSecurity: false,

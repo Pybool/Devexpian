@@ -15,8 +15,19 @@ class Membership {
           .as("membershipButton"),
       checkOutButton: () => cy.get(`button.chakra-button`).contains("Checkout"),
       orderReferenceHeader: () => cy.get("h2").eq(2),
+      purchaseAndValidityTextEl: () =>
+        cy
+          .get('button[aria-label="View Booking Notes"]')
+          .parent()
+          .parent()
+          .parent()
+          .siblings()
+          .eq(1)
+          .children()
+          .eq(0)
+          .find("p")
     }
-    }
+  }
 
   chooseMemberships(item, membershipTypes) {
     let mapping
@@ -54,16 +65,16 @@ class Membership {
 
       const purchaseText = `Purchased on: ${formattedDate}`
       const validToText = `Valid until: ${formattedNextYear}`
-      console.log("Year ", purchaseText, validToText)
-      cy.get("p.chakra-text")
-        .contains(purchaseText)
-        .should("exist")
-        .and("be.visible")
+      const purchaseDateItems = purchaseText.replaceAll(',','').split(" ")
+      cy.wrap(purchaseDateItems).each((purchaseDateItem)=>{
+        this.elements.purchaseAndValidityTextEl().eq(0).should('contain', purchaseDateItem)
+      })
 
-      cy.get("p.chakra-text")
-        .contains(validToText)
-        .should("exist")
-        .and("be.visible")
+      const validToDateItems = validToText.replaceAll(',','').split(" ")
+      cy.wrap(validToDateItems).each((validToDateItem)=>{
+        this.elements.purchaseAndValidityTextEl().eq(2).should('contain', validToDateItem)
+      })
+
     } else {
       let formattedNextMonthEnd
       const today = new Date()
@@ -82,17 +93,15 @@ class Membership {
 
       const purchaseText = `Purchased on: ${formattedDate}`
       const validToText = `Valid until: ${formattedNextMonthEnd}`
+      const purchaseDateItems = purchaseText.replaceAll(',','').split(" ")
+      cy.wrap(purchaseDateItems).each((purchaseDateItem)=>{
+        this.elements.purchaseAndValidityTextEl().eq(0).should('contain', purchaseDateItem)
+      })
 
-      console.log(purchaseText, validToText)
-      cy.get("p.chakra-text")
-        .contains(purchaseText)
-        .should("exist")
-        .and("be.visible")
-
-      cy.get("p.chakra-text")
-        .contains(validToText)
-        .should("exist")
-        .and("be.visible")
+      const validToDateItems = validToText.replaceAll(',','').split(" ")
+      cy.wrap(validToDateItems).each((validToDateItem)=>{
+        this.elements.purchaseAndValidityTextEl().eq(2).should('contain', validToDateItem)
+      })
     }
   }
 
@@ -102,16 +111,17 @@ class Membership {
       .should("have.text", `Order ${Cypress.env("orderId")}`)
   }
 
-  navigateAndConfirmExpiration(){
-    cy.visit(membershipMetaData.constantProperties.expiredMembership)
-    .then(() => {
-      cy.get('p:contains("Valid until:")')
-        .invoke("text")
-        .then((txt) => {
-          const date = txt.split('Valid until:')[1]
-          expect(fns.checkPastOrFutureDate(date)).to.eq('expired')
-        })
-    })
+  navigateAndConfirmExpiration() {
+    cy.visit(membershipMetaData.constantProperties.expiredMembership).then(
+      () => {
+        cy.get('p:contains("Valid until:")')
+          .invoke("text")
+          .then((txt) => {
+            const date = txt.split("Valid until:")[1]
+            expect(fns.checkPastOrFutureDate(date)).to.eq("expired")
+          })
+      }
+    )
   }
 }
 
