@@ -17,9 +17,8 @@ class Membership {
       orderReferenceHeader: () => cy.get("h2").eq(2),
       purchaseAndValidityTextEl: () =>
         cy
-          .get('button[aria-label="View Booking Notes"]')
-          .parent()
-          .parent()
+          .get('h2')
+          .eq(1)
           .parent()
           .siblings()
           .eq(1)
