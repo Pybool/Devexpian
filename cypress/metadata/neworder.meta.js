@@ -8,9 +8,11 @@ const newOrderMetaData = {
     firstname: "Taye",
     lastname: "Tester",
     email: "taye.oyelekan@expian.io",
+    email_confirm:"taye.oyelekan@expian.io",
     telephone: "01234567890",
     country: "United Kingdom",
     line_1: "99 Tester Lane",
+    line_2: "99 Tester Lane",
     town: "Tester Town",
     post_code: "EC1 4RW",
     "cardholder-name": "Taye Tester",
@@ -21,8 +23,12 @@ const newOrderMetaData = {
     Channel: "Reservations",
     Payment_Method: "Card",
     Country_Code: "GB",
+    city:"London",
+    company_name: "Warner Bros",
+    booking_note: "Some random booking note",
     orderID: "ULO7XVEGJ8GZM",
   },
+
 
   orderCompleteStyles: {
     color: "rgb(117, 164, 14)",

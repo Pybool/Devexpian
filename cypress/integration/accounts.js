@@ -7,7 +7,7 @@ Then(
   "I ensure that all nav links are complete and visible with each having an Icon",
   () => {
     accountsPage.checkNavLinks()
-  },
+  }
 )
 
 Then("I should see that the Account Area has 6 tabs present", () => {})
@@ -17,5 +17,5 @@ Then(
   (tabIndex, qString, count, emptyTxt) => {
     const data = { tabIndex, qString, count, emptyTxt }
     accountsPage.checkTabs(data)
-  },
+  }
 )

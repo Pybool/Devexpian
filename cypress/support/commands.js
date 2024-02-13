@@ -23,6 +23,52 @@ Cypress.Commands.add("silentlogin", (isAdmin = false) => {
   })
 })
 
+Cypress.Commands.add("getInputsInIframe", { timeout: 60000 }, (timeout) => {
+  const findInputsInFrame = ($frame) => {
+    return $frame.contentDocument.querySelectorAll('input')
+  }
+
+  const traverseIframes = ($parent, inputs = []) => {
+    const $iframes = $parent.contentDocument.querySelectorAll('iframe')
+    $iframes.forEach($frame => {
+      inputs.push(...findInputsInFrame($frame))
+      traverseIframes($frame, inputs)
+    })
+    return inputs
+  }
+
+  return cy.get('iframe',timeout).then($iframes => {
+    const inputs = []
+    $iframes.each((index, $iframe) => {
+      inputs.push(...findInputsInFrame($iframe))
+      traverseIframes($iframe, inputs)
+    })
+    return inputs
+  })
+})
+
+// Command to check if the payment iframe is visible
+Cypress.Commands.add("checkPaymentIframeVisibility", () => {
+  return cy.window().then(window => {
+    const $ticknovateFrame = window.parent.document.querySelector('#ticknovate-frame')
+    console.log($ticknovateFrame)
+    if ($ticknovateFrame) {
+      const allIframes = $ticknovateFrame.contentDocument.querySelectorAll('iframe')
+      allIframes.forEach(iframe => {
+        if (iframe.name === 'payment-iframe') {
+          cy.wrap(iframe).should('be.visible')
+        }
+      })
+    }
+  })
+})
+
+
+
+
+
+
+
 Cypress.Commands.add("deauthenticate", () => {
   cy.window().then((win) => {
     win.localStorage.removeItem("token")

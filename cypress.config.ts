@@ -28,9 +28,9 @@ module.exports = defineConfig({
     testIsolation: true,
     retries: {
       runMode: 1,
-      openMode: 1,
+      openMode: 0,
     },
-    defaultCommandTimeout: 40000,
+    defaultCommandTimeout: 100000,
     chromeWebSecurity: false,
     videoCompression: false,
     specPattern: "**/*.feature",

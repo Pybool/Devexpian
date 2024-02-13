@@ -4,6 +4,10 @@ const loginMetaData = {
       login: "login",
       landingpage: "",
     },
+    lakedistrict: {
+      login: "login",
+      landingpage: "",
+    },
     booking: {
       login: "account",
       landingpage: "",
@@ -67,6 +71,11 @@ const loginMetaData = {
         },
       },
     },
+    lakeDistrict:{
+      landingpageHeader:{
+        color: 'rgb(61, 191, 163)'
+      }
+    }
   },
 }
 
