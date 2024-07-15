@@ -1,0 +1,210 @@
+[
+  {
+    "description": "    As a tester on Reservations i want to validate the login page to ensure it displays correctly and one can login",
+    "keyword": "Feature",
+    "name": "Customer Login",
+    "line": 1,
+    "id": "customer-login",
+    "tags": [],
+    "uri": "Login.feature",
+    "elements": [
+      {
+        "id": "customer-login;on-reservations-environment-i-ensure-that-the-login-page-is-rendered-correctly",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "On Reservations environment i ensure that the login page is rendered correctly",
+        "tags": [
+          {
+            "name": "@automated",
+            "line": 4
+          },
+          {
+            "name": "@functional",
+            "line": 4
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I navigate to the \"login\" page on the selected environment",
+            "result": {
+              "status": "passed",
+              "duration": 106929000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I should see the \"login\" modal displayed",
+            "result": {
+              "status": "passed",
+              "duration": 3649000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I should see that there is an \"Email\" label",
+            "result": {
+              "status": "passed",
+              "duration": 465000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I should see that there is an \"username\" input field",
+            "result": {
+              "status": "passed",
+              "duration": 250000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I should see that there is an \"Password\" label",
+            "result": {
+              "status": "passed",
+              "duration": 666000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I should see that there is an \"password\" input field",
+            "result": {
+              "status": "passed",
+              "duration": 369000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I should see that there is a \"Sign in\" button with the correct css properties",
+            "result": {
+              "status": "failed",
+              "duration": 1000000,
+              "error_message": "AssertionError: Timed out retrying after 100000ms: expected '[ <input.btn.btn-primary.submitButton-customizable>, 1 more... ]' to have CSS property 'color' with the value 'rgb(15, 28, 42)', but the value was 'rgb(255, 255, 255)'\n    + expected - actual\n\n    -'rgb(255, 255, 255)'\n    +'rgb(15, 28, 42)'\n\n    at LoginPage.assertLoginButton (cypress/pom/Loginpage.js:51:7)\n    at Context.eval (cypress/integration/Login.js:134:18)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I should also see that there is a \"Forgot your password?\" link on the login page with the correct css properties",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "customer-login;on-reservations-environment-i-proceed-to-enter-my-correct-credentials-and-login-successfully",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "On Reservations environment i proceed to enter my correct credentials and login successfully",
+        "tags": [
+          {
+            "name": "@automated",
+            "line": 15
+          },
+          {
+            "name": "@functional",
+            "line": 15
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "I navigate to the \"login\" page on the selected environment",
+            "result": {
+              "status": "passed",
+              "duration": 4887000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "I login using valid \"taye.oyelekan@expian.io\" and \"Radio9*981tai\"",
+            "result": {
+              "status": "passed",
+              "duration": 13280000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "customer-login;user-enters-incorrect-login",
+        "keyword": "Scenario",
+        "line": 33,
+        "name": "User enters incorrect login",
+        "tags": [
+          {
+            "name": "@automated",
+            "line": 25
+          },
+          {
+            "name": "@functional",
+            "line": 25
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 27,
+            "name": "I navigate to the \"login\" page on the selected environment",
+            "result": {
+              "status": "passed",
+              "duration": 3025000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "I login using invalid \"taye.oyelekan@expian.io\" and \"Radio9\"",
+            "result": {
+              "status": "passed",
+              "duration": 7829000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 29,
+            "name": "I should see \"Incorrect username or password.\" displayed",
+            "result": {
+              "status": "passed",
+              "duration": 234000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "user is not logged into account area",
+            "result": {
+              "status": "passed",
+              "duration": 41000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

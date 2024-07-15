@@ -3,7 +3,7 @@ As a User I want to crate orders with the available compartments
 
 @automation-pending
 Scenario: Verify that 4-seat compartments is only available when a Minimum of 2 persons are in cart
-    Given I am logged in to reservations2 'uat'
+    Given I am logged in to the automation environment
     When I click on 'New Order' button
     When I attempt to create an order selecting '2' adult for when choosing who
     Then The '4-seat compartment' compartments are displayed in the select reservation modal
@@ -13,14 +13,14 @@ Scenario: Verify that 4-seat compartments is only available when a Minimum of 2 
     
 @automation-pending
 Scenario: Verify that Joan Pullman Observation seat is only available when a Minimum of 1 persons are in cart
-    Given I am logged in to reservations2 'uat'
+    Given I am logged in to the automation environment
     When I click on 'New Order' button
     When I attempt to create an order selecting '1' adult for when choosing who
     Then The 'Joan Pullman Observation seat' compartments are displayed in the select reservation modal
 
 @automation-pending
 Scenario: Verify that 6-seat compartments are only available when a Minimum of 4 persons are in cart
-    Given I am logged in to reservations2 'uat'
+    Given I am logged in to the automation environment
     When I click on 'New Order' button
     When I attempt to create an order selecting '4' adult for when choosing who
     Then The '6-seat compartment' compartments are displayed in the select reservation modal

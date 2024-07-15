@@ -60,7 +60,7 @@ class MakeBookings {
         cy
           // .iframe("#ticknovate-frame", { timeout: 120000 })
           .iframe("#payment-iframe")
-          .find(`input`),
+          .find('input'),
       marketsListItem: (index) =>
         cy.get(`[role="tablist"]`).eq(0).children().eq(index),
       bookJourneyButton: (text) =>

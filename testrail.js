@@ -152,7 +152,7 @@ try {
   if (argv.init) {
     (async function () {
       await getsectionsList()
-      topDir = ["Bookings", "Reservations"] 
+      topDir = ["Bookings", "Reservations"]
       for (let i = 0; i < topDir.length; i++) {
         const section = getSectionObject(sectionsList, topDir[i])
         if (section === undefined) {

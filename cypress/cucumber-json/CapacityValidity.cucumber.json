@@ -1,0 +1,221 @@
+[
+  {
+    "description": "As a User I want to crate orders with the available compartments",
+    "keyword": "Feature",
+    "name": "Verify that the compartments are available when Minimum requirements are met",
+    "line": 1,
+    "id": "verify-that-the-compartments-are-available-when-minimum-requirements-are-met",
+    "tags": [],
+    "uri": "CapacityValidity.feature",
+    "elements": [
+      {
+        "id": "verify-that-the-compartments-are-available-when-minimum-requirements-are-met;verify-that-4-seat-compartments-is-only-available-when-a-minimum-of-2-persons-are-in-cart",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Verify that 4-seat compartments is only available when a Minimum of 2 persons are in cart",
+        "tags": [
+          {
+            "name": "@automation-pending",
+            "line": 4
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I am logged in to the automation environment",
+            "result": {
+              "status": "undefined",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I click on 'New Order' button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I attempt to create an order selecting '2' adult for when choosing who",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "The '4-seat compartment' compartments are displayed in the select reservation modal",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I close the compartments modal",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I attempt to create an order selecting '1' adult for when choosing who",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "The '4-seat compartment' compartments are not displayed in the select reservation modal",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "verify-that-the-compartments-are-available-when-minimum-requirements-are-met;verify-that-joan-pullman-observation-seat-is-only-available-when-a-minimum-of-1-persons-are-in-cart",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Verify that Joan Pullman Observation seat is only available when a Minimum of 1 persons are in cart",
+        "tags": [
+          {
+            "name": "@automation-pending",
+            "line": 14
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 16,
+            "name": "I am logged in to the automation environment",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "I click on 'New Order' button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "I attempt to create an order selecting '1' adult for when choosing who",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "The 'Joan Pullman Observation seat' compartments are displayed in the select reservation modal",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "verify-that-the-compartments-are-available-when-minimum-requirements-are-met;verify-that-6-seat-compartments-are-only-available-when-a-minimum-of-4-persons-are-in-cart",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "Verify that 6-seat compartments are only available when a Minimum of 4 persons are in cart",
+        "tags": [
+          {
+            "name": "@automation-pending",
+            "line": 21
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 23,
+            "name": "I am logged in to the automation environment",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 24,
+            "name": "I click on 'New Order' button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 25,
+            "name": "I attempt to create an order selecting '4' adult for when choosing who",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "The '6-seat compartment' compartments are displayed in the select reservation modal",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "I close the compartments modal",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 28,
+            "name": "I attempt to create an order selecting '2' adult for when choosing who",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 29,
+            "name": "The '6-seat compartment' compartments are not displayed in the select reservation modal",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

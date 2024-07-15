@@ -28,7 +28,7 @@
             "name": "I am logged in to lakedistrict environment",
             "result": {
               "status": "passed",
-              "duration": 12465000000
+              "duration": 10109000000
             }
           },
           {
@@ -38,7 +38,7 @@
             "name": "I click on the \"New Booking\" card on the \"Reservation System\" page",
             "result": {
               "status": "passed",
-              "duration": 3120000000
+              "duration": 5799000000
             }
           },
           {
@@ -48,7 +48,7 @@
             "name": "I select \"Ullswater market\" on the modal market list",
             "result": {
               "status": "passed",
-              "duration": 1013000000
+              "duration": 1082000000
             }
           },
           {
@@ -58,7 +58,7 @@
             "name": "I click \"Book a journey\" button on Event or Journey page",
             "result": {
               "status": "passed",
-              "duration": 10870000000
+              "duration": 19629000000
             }
           },
           {
@@ -68,7 +68,7 @@
             "name": "I select the \"From\" location",
             "result": {
               "status": "passed",
-              "duration": 1131000000
+              "duration": 13437000000
             }
           },
           {
@@ -77,9 +77,8 @@
             "line": 11,
             "name": "I should see the \"From\" modal",
             "result": {
-              "status": "failed",
-              "duration": 100225000000,
-              "error_message": "AssertionError: Timed out retrying after 100000ms: expected '<h2.heading-module_heading_UXInx>' to be 'visible'\n\nThis element `<h2.heading-module_heading_UXInx>` is not visible because its ancestor has `position: fixed` CSS property and it is overflowed by other elements. How about scrolling to the element with `cy.scrollIntoView()`?\n    at Context.eval (cypress/integration/MakeBooking.js:47:45)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+              "status": "passed",
+              "duration": 1210000000
             }
           },
           {
@@ -88,7 +87,8 @@
             "line": 12,
             "name": "I select an option in the \"From\" modal",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 8713000000
             }
           },
           {
@@ -97,7 +97,8 @@
             "line": 13,
             "name": "I click the \"Next\" button",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 3196000000
             }
           },
           {
@@ -106,7 +107,8 @@
             "line": 14,
             "name": "I select the \"To\" location",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 3517000000
             }
           },
           {
@@ -115,7 +117,8 @@
             "line": 15,
             "name": "I should see the \"To\" modal",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 2263000000
             }
           },
           {
@@ -124,7 +127,8 @@
             "line": 16,
             "name": "I select an option in the \"To\" modal",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 13345000000
             }
           },
           {
@@ -133,7 +137,8 @@
             "line": 17,
             "name": "I click the \"Done\" button",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 5298000000
             }
           },
           {
@@ -142,7 +147,8 @@
             "line": 18,
             "name": "I select the \"Visitors\" location",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 3192000000
             }
           },
           {
@@ -151,7 +157,8 @@
             "line": 19,
             "name": "I should see the \"Select Visitors\" modal",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 3024000000
             }
           },
           {
@@ -160,7 +167,8 @@
             "line": 20,
             "name": "I select \"4 Adults\" in the modal that pops up",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 4216000000
             }
           },
           {
@@ -169,7 +177,8 @@
             "line": 21,
             "name": "I click the \"Done\" button",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 3553000000
             }
           },
           {
@@ -178,7 +187,8 @@
             "line": 22,
             "name": "I select the \"Date\" location",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 7457000000
             }
           },
           {
@@ -187,7 +197,8 @@
             "line": 23,
             "name": "I select a date in the modal that pops up",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 7385000000
             }
           },
           {
@@ -196,7 +207,8 @@
             "line": 24,
             "name": "I click the \"Next\" button",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 5742000000
             }
           },
           {
@@ -205,7 +217,8 @@
             "line": 25,
             "name": "I select a ticket",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 9754000000
             }
           },
           {
@@ -214,7 +227,8 @@
             "line": 26,
             "name": "I click the \"Done\" button",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 3350000000
             }
           },
           {
@@ -223,7 +237,8 @@
             "line": 27,
             "name": "The \"Booking Summary\" widget show be visible",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 14256000000
             }
           },
           {
@@ -232,7 +247,8 @@
             "line": 28,
             "name": "I click the main done button",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 1604000000
             }
           },
           {
@@ -241,7 +257,8 @@
             "line": 29,
             "name": "I fill in the needed contact details",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 39787000000
             }
           },
           {
@@ -250,7 +267,8 @@
             "line": 30,
             "name": "I accept terms conditions and newsletter",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 5541000000
             }
           },
           {
@@ -259,7 +277,8 @@
             "line": 31,
             "name": "I click the make payment button",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 3401000000
             }
           },
           {
@@ -268,7 +287,8 @@
             "line": 32,
             "name": "I fill in the card details information",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 46511000000
             }
           },
           {
@@ -277,7 +297,8 @@
             "line": 33,
             "name": "I click the complete payment button",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 4988000000
             }
           }
         ]
@@ -302,7 +323,7 @@
             "name": "I am logged in to lakedistrict environment",
             "result": {
               "status": "passed",
-              "duration": 7460000000
+              "duration": 9901000000
             }
           },
           {
@@ -312,7 +333,7 @@
             "name": "I click on the \"New Booking\" card on the \"Reservation System\" page",
             "result": {
               "status": "passed",
-              "duration": 3551000000
+              "duration": 3312000000
             }
           },
           {
@@ -322,7 +343,7 @@
             "name": "I select \"Ullswater market\" on the modal market list",
             "result": {
               "status": "passed",
-              "duration": 1280000000
+              "duration": 1349000000
             }
           },
           {
@@ -332,7 +353,7 @@
             "name": "I click \"Book a journey\" button on Event or Journey page",
             "result": {
               "status": "passed",
-              "duration": 9518000000
+              "duration": 15782000000
             }
           },
           {
@@ -342,7 +363,7 @@
             "name": "I select the \"From\" location",
             "result": {
               "status": "passed",
-              "duration": 772000000
+              "duration": 8571000000
             }
           },
           {
@@ -351,8 +372,8 @@
             "line": 75,
             "name": "I should see the \"From\" modal",
             "result": {
-              "status": "failed",
-              "error_message": "AssertionError: Timed out retrying after 100000ms: expected '<h2.heading-module_heading_UXInx>' to be 'visible'\n\nThis element `<h2.heading-module_heading_UXInx>` is not visible because its ancestor has `position: fixed` CSS property and it is overflowed by other elements. How about scrolling to the element with `cy.scrollIntoView()`?\n    at Context.eval (cypress/integration/MakeBooking.js:47:45)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+              "status": "passed",
+              "duration": 907000000
             }
           },
           {
@@ -361,7 +382,8 @@
             "line": 76,
             "name": "I select an option in the \"From\" modal",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 3492000000
             }
           },
           {
@@ -370,7 +392,8 @@
             "line": 77,
             "name": "I click the \"Next\" button",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 1183000000
             }
           },
           {
@@ -379,7 +402,8 @@
             "line": 78,
             "name": "I select the \"To\" location",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 3095000000
             }
           },
           {
@@ -388,7 +412,8 @@
             "line": 79,
             "name": "I should see the \"To\" modal",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 1295000000
             }
           },
           {
@@ -397,7 +422,8 @@
             "line": 80,
             "name": "I select an option in the \"To\" modal",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 7995000000
             }
           },
           {
@@ -406,7 +432,8 @@
             "line": 81,
             "name": "I click the \"Done\" button",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 4721000000
             }
           },
           {
@@ -415,7 +442,8 @@
             "line": 82,
             "name": "I select the \"Visitors\" location",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 2614000000
             }
           },
           {
@@ -424,7 +452,8 @@
             "line": 83,
             "name": "I should see the \"Select Visitors\" modal",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 2198000000
             }
           },
           {
@@ -433,7 +462,8 @@
             "line": 84,
             "name": "I select \"1 Adults\" in the modal that pops up",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 4796000000
             }
           },
           {
@@ -442,7 +472,8 @@
             "line": 85,
             "name": "I select \"3 Under 3\" in the modal that pops up",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 1130000000
             }
           },
           {
@@ -451,7 +482,8 @@
             "line": 86,
             "name": "I click the \"Done\" button",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 1605000000
             }
           },
           {
@@ -460,7 +492,8 @@
             "line": 87,
             "name": "I select the \"Date\" location",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 3579000000
             }
           },
           {
@@ -469,7 +502,8 @@
             "line": 88,
             "name": "I select a date in the modal that pops up",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 7319000000
             }
           },
           {
@@ -478,7 +512,8 @@
             "line": 89,
             "name": "I click the \"Next\" button",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 3229000000
             }
           },
           {
@@ -487,7 +522,8 @@
             "line": 90,
             "name": "I select a ticket",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 8232000000
             }
           },
           {
@@ -496,7 +532,8 @@
             "line": 91,
             "name": "I click the \"Done\" button",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 1782000000
             }
           },
           {
@@ -505,7 +542,8 @@
             "line": 92,
             "name": "The \"Booking Summary\" widget show be visible",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 6291000000
             }
           },
           {
@@ -514,7 +552,8 @@
             "line": 93,
             "name": "I click the main done button",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 1740000000
             }
           },
           {
@@ -523,7 +562,8 @@
             "line": 94,
             "name": "I fill in the needed contact details",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 43329000000
             }
           },
           {
@@ -532,7 +572,8 @@
             "line": 95,
             "name": "I accept terms conditions and newsletter",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 4854000000
             }
           },
           {
@@ -541,7 +582,8 @@
             "line": 96,
             "name": "I click the make payment button",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 2775000000
             }
           },
           {
@@ -550,7 +592,8 @@
             "line": 97,
             "name": "I fill in the card details information",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 45907000000
             }
           },
           {
@@ -559,7 +602,8 @@
             "line": 98,
             "name": "I click the complete payment button",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 2765000000
             }
           }
         ]

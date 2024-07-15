@@ -1,0 +1,356 @@
+[
+  {
+    "description": "As a User I want to access orders section So I create orders",
+    "keyword": "Feature",
+    "name": "User should be able to create orders",
+    "line": 1,
+    "id": "user-should-be-able-to-create-orders",
+    "tags": [],
+    "uri": "CapacityCreateOrders.feature",
+    "elements": [
+      {
+        "id": "user-should-be-able-to-create-orders;i-should-be-able-to-create-an-order",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "I should be able to Create an order",
+        "tags": [
+          {
+            "name": "@automating",
+            "line": 4
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I am logged in to the automation environment",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I click on 'New Order' button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I attempt to create an order selecting '2' adult and '2' child for when choosing who",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "For '2 adults 2 children' I select the needed compartments and choose appropriate seats for each respectively",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "The 'Add Seats' button should be active and i proceed to checkout internally",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I confirm the new order matches with the information from datasource",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "user-should-be-able-to-create-orders;i-should-be-able-to-create-an-order-with-payment-by-t2'-child-for-when-choosing-who",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "I should be able to Create an order with Payment By T2' child for when choosing who",
+        "tags": [
+          {
+            "name": "@automating",
+            "line": 13
+          },
+          {
+            "name": "@till",
+            "line": 13
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 15,
+            "name": "I am logged in to the automation environment",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "I click on 'New Order' button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "I attempt to create an order selecting '2' adult and '2' child for when choosing who",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "For '2 adults 2 children' I select the needed compartments and choose appropriate seats for each respectively",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "The 'Add Seats' button should be active and i proceed to checkout by paying by till",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "I confirm the new order is displayed in the orders table",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "user-should-be-able-to-create-orders;joan-4-seat-minimum-requirement-not-met",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "Joan 4 Seat minimum requirement not met",
+        "tags": [
+          {
+            "name": "@automating",
+            "line": 22
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 24,
+            "name": "I am logged in to the automation environment",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 25,
+            "name": "I click on 'New Order' button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 26,
+            "name": "I attempt to create an order selecting '1' adult for when choosing who",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "The 'Joan Pullman Observation 4-seat compartment' pill is not displayed in the select reservation modal",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "user-should-be-able-to-create-orders;i-should-be-able-to-create-an-order-with-return-ticket",
+        "keyword": "Scenario",
+        "line": 31,
+        "name": "I should be able to Create an order with return ticket",
+        "tags": [
+          {
+            "name": "@automating",
+            "line": 30
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 32,
+            "name": "I am logged in to the automation environment",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 33,
+            "name": "I click on 'New Order' button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 34,
+            "name": "I check the 'Add return single trip' checkbox",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 35,
+            "name": "I should see 'Outbound Options' and 'Return Options' sections for choosing time",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 36,
+            "name": "I select '2' adult when choosing who",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 37,
+            "name": "I should see available times in 'Outbound Options' all 'Enabled'",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 38,
+            "name": "I should see available times in 'Return Options' all 'Disabled'",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 39,
+            "name": "I select the first available time in 'Outbound Options'",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 40,
+            "name": "Atleast 1 time in 'Return Options' should be enabled",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 41,
+            "name": "The 'Add To Cart' button should be 'Disabled'",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 42,
+            "name": "I select the first available time in 'Return Options'",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 43,
+            "name": "The 'Add To Cart' button should be 'Enabled'",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 44,
+            "name": "In the reservation modal i should see 'Dalegarth station - Ravenglass station' with its compartments",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 45,
+            "name": "In the reservation modal i should see 'Ravenglass station - Dalegarth station' with its compartments",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 46,
+            "name": "I checkout and pay",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

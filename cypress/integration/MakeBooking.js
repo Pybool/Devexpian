@@ -1,6 +1,5 @@
-import {Given, When, Then } from "cypress-cucumber-preprocessor/steps"
+import { Given, When, Then } from "cypress-cucumber-preprocessor/steps"
 import MakeBookings from "../pom/Makebooking"
-import loginMetaData from "../metadata/loginpage.meta"
 const makeBookingPage = MakeBookings
 
 const visitorSelection = {
@@ -12,7 +11,7 @@ const visitorSelection = {
 }
 
 Given("I am logged in to lakedistrict environment", () => {
-  cy.visit(loginMetaData.urls[Cypress.env("testenv")]["login"])
+  cy.visit("https://reservations2.lakedistrict.ticknovate-uat.com/login")
   const data = {
     email: Cypress.env("LAKEDISTRICT-EXPIAN-USERNAME"),
     password: Cypress.env("EXPIAN-PASSWORD"),
@@ -52,6 +51,7 @@ Then("I select a date in the modal that pops up", () => {
     .find('div[class^="modal-module_caddy"]')
     .find("span")
     .contains("From")
+    .should("have.css", "color", "rgb(61, 191, 163)")
     .parent()
     .click()
 })
@@ -66,7 +66,10 @@ Then("I select an option in the {string} modal", (text) => {
 })
 
 Then("I click the {string} button", (text) => {
-  makeBookingPage.elements.modalNextButton(text).click({ force: true })
+  makeBookingPage.elements
+    .modalNextButton(text)
+    .should("be.visible")
+    .click({ force: true })
 })
 
 Then("I select {string} in the modal that pops up", (visitors) => {
